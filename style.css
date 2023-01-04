@@ -4,19 +4,14 @@
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-
+/*Main Page and NavBar */
 .header{
-    min-height: 100vh;
+    min-height: 125vh;
     width: 100%;
-    /* background-color: maroon; */
-    /* background-color: #5199f4; */
-    /* border-radius: 156% 0% 20% 50% / 199% 0% 0% 80% ; */
-
     background-image: url(images/home_curve.png);
     background-repeat: no-repeat;
     background-position: right top;
 }
-
 nav{
     display: flex;
     padding: 1% 3%;
@@ -56,10 +51,12 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
+
+/* Home Page Content */
 .dashboard{
     display: flex;
     width: 100%;
-    /* background-color: pink;   */
     justify-content: space-between;
 }
 .home-content{
@@ -88,9 +85,125 @@ nav img{
     color: #fff ;
     border: none;
     box-shadow: 0 5px 5px #aaa;
-
+    cursor: pointer;
 }
 .home-img{
     justify-content: right;
     padding: 75px 150px;  
+}
+
+/* About us main page  */
+
+.about{
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+}
+.about-text{
+    padding: 25px 50px;
+}
+.about-text h1{
+    font-size: 60px;
+    font-weight: 400;   
+    padding-top: 3px;
+    color: #5199f4;
+}
+.about-text p{
+    padding-top: 5px;
+    padding-bottom: 27px;
+    font-size: 24px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 4px solid #5199f4;
+    padding: 14px 71px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    color: #fff ;
+    background-color: #5199f4;
+    transition: 1s;
+}
+.about-img{
+    justify-content: right;
+    padding: 35px 100px; 
+    filter: drop-shadow(45px 75px #5199f4);
+}
+
+/* Why choose bricscad page */
+.bricscad{
+    /* min-height: 100vh; */
+    max-height: 130vh;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    background-image: url(images/choose_img.png);
+    background-repeat: no-repeat;
+}
+.bricscad-img{
+    justify-content: left;
+    padding-top: 320px;
+    padding-bottom: 0px;
+    padding-left: 75px;
+}
+.bricscad-text{
+    padding-bottom: 0px;
+    padding: 300px 40px;
+    text-align: right;
+    justify-content: right;
+}
+.bricscad-text h2{
+    font-size: 60px;
+    font-weight: 300;
+    padding-top: 3px;
+    display: inline;
+}
+.bricscad-text h1{
+    font-size: 60px;
+    display: inline;
+    padding-left: 15px;
+}
+.bricscad-text p{
+    padding-top: 5px;
+    padding-bottom: 27px;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+/* Features in home page */
+.feature{
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    
+}
+.feature h2{
+    font-size: 70px ;
+    font-weight: 300;
+    color: #5199f4;
+    padding-left: 620px; 
+    padding-bottom: 50px;   
+}
+.feature-container{
+    height: auto;
+    /* background-color: brown; */
+    /* width: 100%; */
+    display: block;
+    justify-content: center;
+    padding-left: 150px;
+}
+.feature-card{
+    width: 80%;
+    display: flex;
+    /* background-color: #aaa; */
+    justify-content: center;
+    box-shadow: 0 5px 5px #aaa;
+    padding: 25px 1px;
+    /* background-color: red; */
 }
