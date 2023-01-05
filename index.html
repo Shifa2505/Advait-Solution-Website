@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
     crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;900&family=Poppins:wght@100;300;400;600;700&display=swap" 
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
 </head>
 <body>
     <!-- Main Home Page -->
@@ -20,15 +21,27 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="">About Us</a></li>
-                    <li><a href="#">Products</a></li>
-                        <!-- <div class="dropdown-1">
+                    <li>
+                        <a href="">Products <i class="fas fa-caret-down"></i> </a>
+                        <div class="dropdown-1">
                             <ul>
                                 <li><a href="#">Product 1</a></li>
                                 <li><a href="#">Product 2</a></li>
                                 <li><a href="#">Product 3</a></li>
                             </ul>
-                        </div> -->
-                    <li><a href="services.html">Services</a></li>
+                        </div> 
+                    </li>
+                    <li>
+                        <a href="services.html">Services <i class="fas fa-caret-down"></i> </a>
+                        <div class="dropdown-2">
+                            <ul>
+                                <li><a href="#">Services 1</a></li>
+                                <li><a href="#">Services 2</a></li>
+                                <li><a href="#">Services 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
@@ -88,7 +101,7 @@
         <div class="feature-container">
             <div class="feature-card">
                 <div class="feature-img">
-                    <img src="images/blockify.png">
+                    <img src="images/blockify.png" width="380" height="220">
                 </div>
                 <div class="feature-content">
                     <h3>Blockify</h3>
@@ -99,7 +112,7 @@
             </div>
             <div class="feature-card">
                 <div class="feature-img">
-                    <img src="images/snapping.png">
+                    <img src="images/snapping.png" width="380" height="220">
                 </div>
                 <div class="feature-content">
                     <h3>Adaptive grid Snapping</h3>
@@ -110,7 +123,7 @@
             </div>
             <div class="feature-card">
                 <div class="feature-img">
-                    <img src="images/palattes.png">
+                    <img src="images/palattes.png" width="380" height="220">
                 </div>
                 <div class="feature-content">
                     <h3>Improved Tool Palettes Panel</h3>
@@ -118,6 +131,44 @@
                 </div>
             </div>
         </div>
+        <button>View More</button>
+    </section>
+    <!---------------------------- PRODUCTS ------------------------------->
+    <section class="product">
+        <h2>Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-img" width="380" height="210">
+                    <img src="images/lite.png">
+                </div>
+                <div class="product-content">
+                    <h3>BricsCAD Lite</h3>
+                    <p>For everyone who creates and edits<br>
+                        2D drawings.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/pro.png" width="380" height="210">
+                </div>
+                <div class="product-content">
+                    <h3>BricsCAD Pro</h3>
+                    <p>For 2D and 3D modeling supporting<br>
+                        industry specific apps.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/mechanical.png" width="380" height="210">
+                </div>
+                <div class="product-content">
+                    <h3>BricsCAD Mechanical</h3>
+                    <p>For 2D and 3D modeling supporting<br>
+                        industry specific apps.</p>
+                </div>
+            </div>
+        </div>
+        <button>View More</button>
     </section>
 </body>
 </html>
