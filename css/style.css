@@ -356,3 +356,194 @@ nav img{
     margin-top: 30px;
     border-radius: 45px;
 }
+/* -------------------- Services in main home page ---------------------------- */
+.service{
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/service_curve.png);
+    background-repeat: no-repeat;
+
+}
+.service h2{
+    font-size: 70px ;
+    font-weight: 300;
+    color: #5199f4;
+    justify-content: center;
+    padding-left: 630px; 
+    padding-bottom: 40px; 
+    padding-top: 120px;  
+}
+.service-container{
+    display: flex;
+    justify-content: center; 
+    width: 90%;
+    padding-left: 50px;
+}
+.service-card{
+    max-width: 550px;
+    display: block;
+    border-radius: 35px;
+    height: 430px;
+    /* justify-content: space-between; */
+    box-shadow: 0 5px 5px #aaa;
+    padding: 15px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    background-color: #fff;
+}
+.service-card:hover{
+    box-shadow: 0 0 50px 0px #808080;
+}
+.service-content{
+    display: block;
+    margin-left: 5px;
+}
+.service-content h3{
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+.service-content p{
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 19px;
+    color: dimgray;
+    text-align: center;
+}
+.service button{
+    width: 200px;
+    background-color: #5199f4;
+    font-size: 23px;
+    padding: 5px 5px;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 5px 5px #aaa;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 650px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 45px;
+}
+/* --------------------Hear from our customers in main page-------------------- */
+.testimonial{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial h2{
+    font-size: 50px ;
+    font-weight: 300;
+    color: #5199f4;
+    justify-content: center;
+    padding-left: 50px; 
+    padding-bottom: 100px; 
+    padding-top: 70px;  
+}
+.testimonial-container{
+    display: block;
+    position: relative;
+    max-width: 1300px;
+    width: 100%;
+    padding-top: 30px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.testimonial-card{
+    display: flex;
+    border-radius: 35px;
+    background-color: #5199f4;
+    height: 330px;
+    width: 100%;
+    box-shadow: 0 5px 5px #aaa;
+}
+.testimonial-card:hover{
+    box-shadow: 0 0 40px 0px #808080;
+}
+.testimonial-img{
+    position: relative;
+    object-fit: cover;
+    width: 200px;
+    height: 110px;
+}
+.testimonial .image{
+    object-fit: cover;
+    border-radius: 35px 0px 0px 0px;
+}
+.testimonial-text{
+    padding-left: 80px;
+    color: #fff;
+}
+.testimonial-text h3{
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.testimonial-text p{
+    padding-top: 13px;
+    font-size: 21px;
+    font-weight: 300;
+}
+.testimonial-text h5{
+    padding-top: 7px;
+    font-size: 21px;
+    font-weight: 300;
+}
+.testimonial-text h6{
+    padding-left: 12px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+@media all and (max-width: 768px) {
+    .nav-btn{
+        display: none;
+    }
+}
+
+/* ******************* CONTACT US PART OF MAIN PAGE **************************** */
+.message{
+    min-height: 120vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.image-holder{
+    height: 110vh;
+    width: 100%;
+    /* background-image: url(images/map.png); */
+    background-color: #5199f4;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.send-message{
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    height: 600px;
+    width: 1000px;   
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.contact-us{
+    background-color: crimson;
+    position: absolute;
+    z-index: 3;
+    height: 500px;
+    width: 450px;   
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+
