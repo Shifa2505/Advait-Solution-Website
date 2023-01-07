@@ -6,9 +6,9 @@
 }
 /*Main Page and NavBar */
 .header{
-    min-height: 125vh;
+    height: 130vh;
     width: 100%;
-    background-image: url(images/home_curve.png);
+    background-image: url(/images/ho-curve.png);
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -33,11 +33,12 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    letter-spacing: 2px;
 }
 .nav-links ul li a{
     color: #fff ;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1rem;
 }   
 .nav-links ul li::after{
     content: '';
@@ -69,38 +70,23 @@ nav img{
     text-align: left;
 } 
 
-.dropdown-2{
-    display: none;
-} 
-.nav-links ul li:hover .dropdown-2{
-    display: block;
-    position: absolute;
-    top: 100%;
-    width: 145px;
-    left: 0;
-}
-.nav-links ul li:hover .dropdown-2 ul{
-    display: block;
-}
-.nav-links ul li:hover .dropdown-2 ul li{
-    width: 125px;
-    text-align: left;
-} 
-
 /* Home Page Content */
 .dashboard{
-    padding-top: 40px;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 .home-content{
-    padding: 95px 50px;
+    padding-left: 3rem;
+    /* padding: 95px 50px; */
 }
 .home-content h2{
-    font-size: 50px;
+    font-size: 2rem;
     font-weight: 400;
-    padding-top: 3px;
+    padding-top: 0px;
+    /* font-size: 50px;
+    padding-top: 3px; */
 }
 .home-content h1{
     font-size: 50px;
@@ -110,7 +96,8 @@ nav img{
     padding-top: 5px;
     padding-bottom: 18px;
     font-size: 17px;
-    color: grey;
+    color: rgb(54, 53, 53);
+    text-align: justify;
 }
 .home-content button{
     width: 285px;
@@ -119,8 +106,8 @@ nav img{
     font-size: 25px;
     color: #fff ;
     border: none;
-    box-shadow: 0 5px 5px #aaa;
-    cursor: pointer;
+    box-shadow: 0 4px 4px #aaa;
+    border-radius: 20px;
 }
 .home-img{
     justify-content: right;
@@ -134,11 +121,13 @@ nav img{
     width: 100%;
     padding-top: 10px;
     display: flex;
+    align-items: center;    
 }
 .about-text{
-    padding: 25px 50px;
+    padding: 25px 0 0 50px;
+    width: 80%;
 }
-.about-text h1{
+.about-text h2{
     font-size: 60px;
     font-weight: 400;   
     padding-top: 3px;
@@ -147,23 +136,28 @@ nav img{
 .about-text p{
     padding-top: 5px;
     padding-bottom: 27px;
-    font-size: 24px;
+    font-size: 1rem;
+    color: rgb(54, 53, 53);
+    text-align: justify;
 }
-.hero-btn{
+.abt-btn{
     display: inline-block;
     text-decoration: none;
-    color: black;
-    border: 4px solid #5199f4;
-    padding: 14px 71px;
-    font-size: 23px;
+    color: #fff;
+    padding: 0.4rem 1.2rem;
+    font-size: 1.2rem;
     background: transparent;
     position: relative;
     cursor: pointer;
-}
-.hero-btn:hover{
-    color: #fff ;
+    border-radius: 25px;
     background-color: #5199f4;
-    transition: 1s;
+}
+.abt-btn:hover{
+    color: #4093ff ;
+    transition: 0.5s;
+    border-radius: 25px;
+    border: 4px solid #5199f4;
+    background-color: #fff;
 }
 .about-img{
     justify-content: right;
@@ -173,42 +167,43 @@ nav img{
 
 /* Why choose bricscad page */
 .bricscad{
-    /* min-height: 100vh; */
-    max-height: 130vh;
+    min-height: 100vh;
     width: 100%;
-    padding-top: 10px;
     display: flex;
-    background-image: url(images/choose_img.png);
+    background-image: url(/images/choose_img.png);
     background-repeat: no-repeat;
+    align-items: center;
 }
 .bricscad-img{
     justify-content: left;
-    padding-top: 320px;
     padding-bottom: 0px;
-    padding-left: 75px;
+    padding-left: 50px;
 }
 .bricscad-text{
     padding-bottom: 0px;
-    padding: 300px 40px;
+    padding: 0 50px;
     text-align: right;
     justify-content: right;
+    align-items: center;
 }
 .bricscad-text h2{
-    font-size: 60px;
+    font-size: 3rem;
     font-weight: 300;
     padding-top: 3px;
     display: inline;
 }
-.bricscad-text h1{
-    font-size: 60px;
-    display: inline;
-    padding-left: 15px;
+.bricscad-text .divider{
+    height: 5px;
+    width: 70%;
+    background-color: #4093ff;
+    margin-left: 30%;
+    border-radius: 25px;
 }
 .bricscad-text p{
     padding-top: 5px;
     padding-bottom: 27px;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 1rem;
 }
 
 /* Features in home page */
@@ -217,7 +212,7 @@ nav img{
     min-height: 100vh;
     width: 100%;
     justify-content: center;
-    background-image: url(images/feature_curve.png);
+    background-image: url(/images/feature_curve.png);
     background-repeat: no-repeat;
     background-position: right top;
     
@@ -361,7 +356,7 @@ nav img{
     display: block;
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/service_curve.png);
+    background-image: url(/images/service_curve.png);
     background-repeat: no-repeat;
 
 }
@@ -509,9 +504,9 @@ nav img{
 
 /* ******************* CONTACT US PART OF MAIN PAGE **************************** */
 .message{
-    min-height: 120vh;
+    min-height: 100vh;
     width: 100%;
-    background-color: bisque;
+    /* background-color: bisque; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -520,30 +515,167 @@ nav img{
 .image-holder{
     height: 110vh;
     width: 100%;
-    /* background-image: url(images/map.png); */
     background-color: #5199f4;
+    position: relative;
+    z-index: 1;
+}
+.map-img{
     position: absolute;
     z-index: 1;
 }
-
-
 .send-message{
     background-color: #fff;
     position: absolute;
     z-index: 2;
     height: 600px;
     width: 1000px;   
-    margin-left: 300px;
-    margin-top: 100px;
+    margin-left: 350px;
+    margin-top: 130px;
+    padding: auto;
+}
+.send-message h1{
+    color: #5199f4;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-left: 350px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    margin-left: 350px;
+}
+.input-row .input-group{
+    flex-basis: 70%;
+}
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 3px solid rgb(103, 102, 102);
+    outline: none;
+    font-size: 20px;
+    padding-bottom: 5px;    
+}
+textarea{
+    width: 60%;
+    border: none;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(103, 102, 102);
+    outline: none;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin-left: 350px;
+}
+.send-message button{
+    width: 200px;
+    background-color: #5199f4;
+    padding: 18px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 5px 5px #aaa;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 350px;
 }
 .contact-us{
-    background-color: crimson;
+    background-color: #5199f4;
     position: absolute;
     z-index: 3;
+    box-shadow: 0 5px 5px #aaa;
     height: 500px;
     width: 450px;   
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 180px;
+    color: #fff;
+    font-size: 20px;
 }
+.contact-us h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 70px;
+    padding-bottom: 35px;
+    margin-left: 40px;
+}
+/* .contact-us i{
+    font-size: 40px;
+    margin-left: 40px;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 35px;
+} */
+.contact-us .info-box div{
+    margin-left: 35px;
+    display: flex;
+}
+.contact-us .info-box div span{
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 15px;
+    margin-bottom: 45px;
+}
+.contact-us .info-box div p{
+    font-size: 1.3rem;
+}
+.contact-us .info-box div a{
+    text-decoration: underline;
+    color: #fff;
+}
+.social{
+    /* margin-top: 10px; */
+    margin-left: 35px;
+    display: flex;
+}
+.social li{
+    list-style: none;
+    margin-right: 45px;
+}
+.social li a{
+    color: #fff;
+    font-size: 2.3rem;
+}
+
+
+/* ******************* FOOTER *************************** */
+.footer{
+    margin-top: 300px;
+    height: 50vh;
+    width: 100%;
+    background-color: #5199f4;
+    display: flex;
+}
+.col-1{
+    width: 30%;
+    padding: auto;
+    margin-top: 35px;
+    background-color: brown;
+}
+.col-2{
+    width: 20%;
+    padding: auto;
+    margin-top: 35px;
+    background-color: green;
+}
+.col-3{
+    width: 20%;
+    padding: auto;
+    margin-top: 35px;
+    background-color: fuchsia;
+}
+.col-4{
+    width: 30%;
+    padding: auto;
+    margin-top: 35px;
+    background-color: saddlebrown;
+}
+
 
 
