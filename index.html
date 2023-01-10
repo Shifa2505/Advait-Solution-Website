@@ -21,8 +21,8 @@
         <!-- Nav Bar Section -->
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
-            <div class="nav-links">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="">About Us</a></li>
@@ -50,7 +50,7 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
-            <i class="fa-solid fa-bars"></i>
+            <i class="bar fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>   
         <!-- Main content of home screen -->
         <div class="dashboard">
@@ -370,11 +370,14 @@
 
     </section>
 
+    <!-- ---------------JavaScrip for Toggle Menu------------------------ -->
+    <script src="js/toggle.js"></script>
 
     <!-- ------ Swiper JS---------->
     <script src="js/swiper-bundle.min.js"></script>
 
     <!-- ---------- JavaScript for swiper -------------- -->
     <script src="js/script.js"></script>
+
 </body>
 </html>

@@ -85,6 +85,7 @@ nav img{
 }
 .home-content{
     padding-left: 3rem;
+    width: 80%;
     /* padding: 95px 50px; */
 }
 .home-content h2{
@@ -127,27 +128,34 @@ nav .fa-solid{
     *{
         width: 100%;
         overflow-x: hidden;
-    }
-    
+    } 
+    h2{
+        font-size: 2.5rem;
+    } 
     .header{
         background-image: none;
-        /* background-color: beige; */
         width: 100%;
     }
-    
-    
+        
     .dashboard{
         flex-direction: column ;
         margin-top: 130px;
-        /* background-color: brown; */
         justify-content: left;
         align-items: baseline;
         position: absolute;
+        /* background-color: bisque; */
     }
     .nav-links ul li{
         display: block;
-        padding-bottom: 25px;
+        padding-bottom: 12px;
     }
+    .nav-links ul li ul{
+        position: relative;
+    }
+    .dropdown-1{
+        display: block;
+    }
+ 
     .nav-links ul li a{
         font-size: 1.5rem;
         display: flex;
@@ -159,13 +167,13 @@ nav .fa-solid{
         padding: 30px;
     }
     .nav-links{
+        display: none;
         position: absolute;
         background: #5199f4;
         height: 100vh;
         width: 280px;
         top: 0;
         right: 0;
-        /* right: -280px; */
         text-align: left;
         z-index: 2;
     }
@@ -178,10 +186,7 @@ nav .fa-solid{
     .home-content p{
         font-size: 1.6rem;
         padding-top: 15px;
-        max-width: 550px;
-        /* min-width: 400px; */
-        /* background-color: cornflowerblue; */
-        padding-right: 45px;
+        text-align: left;
     }
     .home-content button{
         margin-top: 55px;
@@ -192,17 +197,20 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         color: #fff;
-        /* color: orange; */
         /* color: #5199f4; */
         margin: 10px;
         font-size: 2.5rem;
         cursor: pointer;
     }
-    .home-img{
-        justify-content: left;
-        padding-left: 0px;
+    nav .bar{
+        color: #5199f4;
+        width: 150px;
+        font-size: 3.5rem;
     }
-
+    .home-img{
+        padding-left: 50px; 
+        width: 80%;
+    }
 
 }
 /* About us main page  */
@@ -256,6 +264,41 @@ nav .fa-solid{
     filter: drop-shadow(45px 75px #5199f4);
 }
 
+
+/* ------------------------Responsive About Us page----------------------------------------- */
+@media(max-width: 768px){
+    .about{
+        flex-direction: column;
+        margin-top: 250px;
+    }
+    .about-text{
+        padding: 25px 0 0 2px;
+    }
+    .about-text h2{
+        font-weight: 700;
+        padding-bottom: 15px;
+        letter-spacing: 5px;
+    }
+    .about-text p{
+        font-size: 1.4rem;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    .abt-btn{
+        width: 40%;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #5199f4;
+        border: 4px solid #5199f4;
+        background-color: #fff;
+    }
+    .about-img{
+        width: 75%;
+        padding-top: 130px;
+    }
+   
+}
+
 /* Why choose bricscad page */
 .bricscad{
     min-height: 100vh;
@@ -276,6 +319,7 @@ nav .fa-solid{
     text-align: right;
     justify-content: right;
     align-items: center;
+    width: 80%;
 }
 .bricscad-text h2{
     font-size: 3rem;
@@ -295,6 +339,35 @@ nav .fa-solid{
     padding-bottom: 27px;
     font-weight: 300;
     font-size: 1rem;
+}
+
+/* ----------------------Responsive Why Choose BricsCAD page ------------------------------- */
+@media(max-width: 768px){
+    .bricscad{
+        flex-direction: column-reverse;
+        background-image: none;
+    }
+    .bricscad-text{
+        padding: 250px 0 0 2px;
+    }
+
+    .bricscad-text h2{
+        text-align: left;
+        margin-left: 0px;
+    }
+    .bricscad-text p{
+        padding-top: 45px;
+        font-size: 1.6rem;
+        text-align: right;
+    }
+    .bricscad-img{
+        width: 80%;
+        padding-top: 130px;
+        background-image: url(/images/choose_img.png);
+        background-repeat: no-repeat;
+        background-size: 1000px 570px;
+        padding-bottom: 200px;
+    }
 }
 
 /* Features in home page */
