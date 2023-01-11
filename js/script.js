@@ -1,7 +1,10 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".testimonial-content", {
     slidesPerView: 1,
     spaceBetween: 60,
     loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -11,3 +14,5 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  // var swiper = new Swiper(".mySwiper", {
