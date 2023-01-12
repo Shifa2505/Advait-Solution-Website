@@ -125,10 +125,14 @@ nav .fa-solid{
 
 /* -------------Responsive Home Page Content---------------- */
 @media(max-width: 768px){
-    *{
+    *:not(.testimonial *){
         width: 100%;
         overflow-x: hidden;
-    } 
+    }
+    /* *{
+        width: 100%;
+        /* overflow-x: hidden; */
+    /* }   */
     h2{
         font-size: 2.5rem;
     } 
@@ -717,6 +721,8 @@ nav .fa-solid{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 }
 .testimonial-title{
     width: 80%;
@@ -733,15 +739,15 @@ nav .fa-solid{
 .testimonial-container{
     display: block;
     position: relative;
-    max-width: 1300px;
-    width: 100%;
+    /* max-width: 1300px; */
+    width: 90%;
     padding-top: 30px;
     overflow: hidden;
-    background-color: brown;
+    /* background-color: brown; */
     padding: 50px;
 }
 .testimonial-content{
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     overflow: hidden;
 }
 
@@ -819,43 +825,28 @@ nav .fa-solid{
         text-align: center;
         justify-content: center;
         object-fit: cover;
-        /* background-color: beige; */
     }
     .testimonial-content{
         height: 600px;
-        flex-direction: column;
     }
-    /* .testimonial-content{    
-        /* background-color: violet; */
-        /* width: 100%;
-        height: 80%; */
-
-        /* justify-content: center; */
-        /* align-items: center; */
-    /* } */ 
     .testimonial-card{
         height: 600px;
         width: 80%;
-        /* justify-content: center;
-        align-items: center; */
-        /* display: flex; */
-        /* position: absolute; */
-        /* display: initial; */
-        /* margin-left: 300px; */
-        /* background-color: crimson; */
+        flex-direction: column;
     }
     .testimonial-text{
-        background-color: darkgreen;
-        margin-top: 100px;
-        /* margin-left: 0;
-         */
-         margin-right: 0px;
-        /* padding: 0; */
-        max-height: 450px;
+        margin-top: 10px;
+        padding: 30px;
+        text-align: left;
+        margin-right: 0px;
         width: 80%;
     }
+    .testimonial-text h3{
+        padding-top: 0;
+        font-size: 2.5rem;
+    }
     .swiper-navBtn{
-        /* display: none; */
+        display: none;
     }
 }
 
@@ -879,7 +870,10 @@ nav .fa-solid{
 .map-img{
     position: absolute;
     z-index: 1;
+    width: "780px";
+    height: "820px";
 }
+
 .send-message{
     background-color: #fff;
     position: absolute;
@@ -992,7 +986,80 @@ textarea{
     color: #fff;
     font-size: 2.3rem;
 }
+/* ------------------------------- Responsive Contact us part of main page------------------------------------------- */
+@media all and (max-width: 768px){
+    .image-holder{
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+        height: 170vh;
+    }
+    .map-img{
+        padding: 0;
+        position: absolute;
+    }
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        margin-left: 0;
+        width: 100%;
+        height: 550px;
+        align-items: center;
+    }
+    .contact-us h1{
+        width: 80%;
+        font-size: 2.8rem;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        margin-top: 10px;
+    }
+    .contact-us .info-box div{
+        width: 80%; 
+        margin-left: 50px;
+    }
+    .contact-us .info-box div span{
+        margin-right: 10px;
+        margin-bottom: 15px;
+        max-width: 10px;
+        height: 80px;
+        font-size: 2.5rem;
+        
+    }
+    .contact-us .info-box div p{
+        margin-left: 10px;
+        width: 100%;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    .contact-us .info-box div a{
+        font-size: 1.5rem;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 10px;
 
+    }
+    .social{
+        margin-left: 50px;
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .social li{
+        margin-right: 0;
+    }
+    .social li a{
+        font-size: 3.5rem;
+    }
+    .send-message{
+        z-index: 1;
+        background-color: darkgreen;
+        margin-left: 0;
+        margin-top: 820px;
+        width: 100%;
+    }
+    
+
+}
 
 /* ******************* FOOTER *************************** */
 .footer{

@@ -10,9 +10,15 @@ var swiper = new Swiper(".testimonial-content", {
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next",
     },
+
+    // breakpoints:{
+    //   0: {
+    //     slidesPerView: 1
+    //    },
+    // }
   });
 
   // var swiper = new Swiper(".mySwiper", {
