@@ -3,13 +3,8 @@
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    /* width: 100%; */
-    /* overflow-x: hidden; */
 }
 
-h1{
-    font-size: 2rem;
-}
 /*Main Page and NavBar */
 .header{
     height: 130vh;
@@ -191,6 +186,7 @@ nav .fa-solid{
         font-size: 1.6rem;
         padding-top: 15px;
         text-align: left;
+        width: 80%;
     }
     .home-content button{
         margin-top: 55px;
@@ -382,7 +378,7 @@ nav .fa-solid{
     justify-content: center;
     background-image: url(/images/feature_curve.png);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right bottom;
     
 }
 .feat-text{
@@ -655,7 +651,7 @@ nav .fa-solid{
     margin-left: 5px;
 }
 .service-content h3{
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 400;
     padding-top: 20px;
     text-align: center;
@@ -663,7 +659,7 @@ nav .fa-solid{
 .service-content p{
     padding-top: 20px;
     padding-bottom: 27px;
-    font-size: 19px;
+    font-size: 1rem;
     color: dimgray;
     text-align: center;
 }
@@ -726,9 +722,10 @@ nav .fa-solid{
 }
 .testimonial-title{
     width: 80%;
+    text-align: center;
 }
 .testimonial h2{
-    font-size: 50px ;
+    font-size: 3rem ;
     font-weight: 300;
     color: #5199f4;
     justify-content: center;
@@ -739,15 +736,12 @@ nav .fa-solid{
 .testimonial-container{
     display: block;
     position: relative;
-    /* max-width: 1300px; */
     width: 90%;
     padding-top: 30px;
     overflow: hidden;
-    /* background-color: brown; */
     padding: 50px;
 }
 .testimonial-content{
-    /* background-color: cornsilk; */
     overflow: hidden;
 }
 
@@ -778,12 +772,12 @@ nav .fa-solid{
 }
 .testimonial-text h3{
     padding-top: 70px;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 400;
 }
 .testimonial-text p{
     padding-top: 13px;
-    font-size: 21px;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 .testimonial-text h5{
@@ -805,7 +799,7 @@ nav .fa-solid{
 }
 /* --------------------------- Hear from our customer responsive page --------------------------------------- */
 
-@media all and (max-width: 768px) {
+@media(max-width: 768px){
     .testimonial{
         margin-top: 100px;
     }
@@ -854,7 +848,6 @@ nav .fa-solid{
 .message{
     min-height: 100vh;
     width: 100%;
-    /* background-color: bisque; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -987,12 +980,12 @@ textarea{
     font-size: 2.3rem;
 }
 /* ------------------------------- Responsive Contact us part of main page------------------------------------------- */
-@media all and (max-width: 768px){
+@media (max-width: 768px){
     .image-holder{
         display: flex;
         flex-direction: column;
-        background-color: grey;
-        height: 170vh;
+        background-color: #fff ;
+        height: 210vh;
     }
     .map-img{
         padding: 0;
@@ -1052,12 +1045,48 @@ textarea{
     }
     .send-message{
         z-index: 1;
-        background-color: darkgreen;
+        /* background-color: darkgreen; */
+        height: 800px;
         margin-left: 0;
         margin-top: 820px;
         width: 100%;
     }
-    
+    .send-message h1{
+        margin-left: 50px;
+        width: 80%;
+        padding-top: 50px;
+        font-size: 2.8rem;
+        font-weight: 600;
+        padding-bottom: 50px;
+    }
+    .input-row{
+        flex-direction: column;
+        margin-left: 50px;
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .input-group{
+        margin-bottom: 20px;
+    }
+    input{
+        width: 60%;
+        height: 65px;
+        font-size: 1.6rem;
+    }
+    .txtarea{
+        width:90%;
+    }
+    textarea {
+        margin-left: 50px;
+        height: 65px;
+        font-size: 1.6rem;
+    }
+    .send-message button{
+        width: 40%;
+        margin-left: 50px;
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
 
 }
 
@@ -1070,11 +1099,19 @@ textarea{
     display: flex;
 }
 
+/* -----------------RESPONSIVE FOOTER------------------------- */
+@media(max-width: 768px){
+    .footer{
+        flex-direction: column;
+        height: 220vh;
+        margin-top: 100px;
+    }
+}
+
 /* ---------------Newslettwe part of the footer------------------------ */
 .col-1{
     width: 30%;
     margin-top: 35px;
-    /* background-color: brown; */
     text-align: center;
 }
 .col-1 h1{
@@ -1123,6 +1160,39 @@ textarea{
     background-color: red; 
 
 }
+/* ------------------RESPONSIVE Newslettwe part of the footer------------------------ */
+@media(max-width: 768px){
+    .col-1{
+        width: 95%;
+        height: 80vh;  
+    }
+    .col-1 h1{
+        font-weight: 550;
+    }
+    .newsletter{
+        width: 80%;
+        height: 450px;
+        margin-left: 50px;
+    }
+    .col-1 p{
+        font-size: 1.4rem;
+    }
+    .news-row{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .input-news{
+        padding-bottom: 15px;
+    }
+    .news-mail{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .news-btn button{
+        font-size: 1.6rem;
+        width: 40%;
+    }
+}
 /* --------------------Products part of the footer------------------------- */
 .col-2{
     display: flex;
@@ -1142,6 +1212,26 @@ textarea{
     font-size: 1.2rem;
     color: #fff;
     padding: 10px;
+}
+/*----------- RESPONSIVE Products part of the footer */
+@media(max-width: 768px){
+    .col-2{
+        width: 80%;
+        margin-left: 30px;
+        height: 45vh;
+        margin-top: 0;
+    }
+    .col-2 h2{
+        font-size: 3rem;
+        font-weight: 500;
+        width: 80%;
+        text-align: left;
+    }
+    .col-2 p{
+        font-size: 1.6rem;
+        width: 80%;
+        text-align: left;
+    }
 }
 /* -------------------Services part of the footer---------------- */
 .col-3{
@@ -1163,6 +1253,25 @@ textarea{
     color: #fff;
     padding: 10px;
 }
+/* -------------- Responsive Services part of the footer ----------------- */
+@media(max-width: 768px){
+    .col-3{
+        width: 80%;
+        margin-left: 30px;
+        height: 45vh;
+    }
+    .col-3 h2{
+        font-size: 3rem;
+        font-weight: 500;
+        width: 80%;
+        text-align: left;
+    }
+    .col-3 p{
+        font-size: 1.6rem;
+        width: 80%;
+        text-align: left;
+    }
+}
 /* ----------------Map part of the footer-------------------- */
 .col-4{
     width: 30%;
@@ -1177,5 +1286,11 @@ iframe{
     height: 270px;
     width: 340px;
 }
-
-
+/* -----------Responsive map part of the footer----- */
+@media(max-width: 768px){
+    .col-4{
+        width: 80%;
+        margin-left: 20px;
+        height: 55vh;
+    }
+}
