@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ADVAIT SOLUTION </title>
+    <!-- ----swiper css----- -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
+    crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;900&family=Poppins:wght@100;300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+    <!-- Main Home Page -->
+    <section class="header">
+        <!-- Nav Bar Section -->
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li>
+                        <a href="">Products <i class="fas fa-caret-down"></i> </a>
+                        <div class="dropdown-1">
+                            <ul>
+                                <li><a href="#">Product 1</a></li>
+                                <li><a href="#">Product 2</a></li>
+                                <li><a href="#">Product 3</a></li>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li>
+                        <a href="services.html">Services <i class="fas fa-caret-down"></i> </a>
+                        <div class="dropdown-1">
+                            <ul>
+                                <li><a href="#">Services 1</a></li>
+                                <li><a href="#">Services 2</a></li>
+                                <li><a href="#">Services 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="bar fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>      
+    </section>
+
+
+    <!-- ----------------------- CONTACT US PART OF HOME PAGE ---------------------------->
+    <section class="message">
+        <div class="image-holder">
+            <div class="map-img">
+                <!-- <img src="images/map.png"> -->
+                <img src="images/map.png" width="780" height="820">
+            </div>
+            <div class="send-message">
+                <h1>Send a Message</h1>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <input type="text" placeholder="First Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <input type="email" placeholder="Email ID" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Moblie Number" required>
+                        </div>
+                    </div>
+                    <div class="txtarea">
+                        <textarea rows="1" placeholder="Write your message here"></textarea required>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-us">
+                <h1>Contact Us</h1>
+                <div class="info-box">
+                    <div>
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <p>201, Nakshatra, Mira - Bahyander 40091</p>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-envelope"></i></span>
+                        <a href="mailto:info@advaitsolution.com">info@advaitsolution.com </a>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-phone"></i></span>
+                        <a href="tel:777-9999-777-0">777-9999-777-0</a>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------FOOTER---------------------------- -->
+    <section class="footer">
+        <!-- --------NEWSLETTER--- -->
+        <div class="col-1">
+            <h1>ADVAIT SOLUTION</h1>
+            <div class="newsletter">
+                <p>Subscribe to our newsletter</p>
+                <form>
+                <div class="news-row">
+                    <div class="input-news">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="input-news">
+                        <input type="text" placeholder="Contact" required>
+                    </div>
+                </div>
+                <div class="news-mail">
+                    <input type="mail" placeholder="Email ID" required>
+                </div>
+                <div class="news-btn">
+                    <button type="submit">Subscribe</button>
+                </div>
+               </form>
+            </div>           
+        </div>
+        <!-- ----------------Products of footer------------------- -->
+        <div class="col-2">
+            <h2>Products</h2>
+            <p>BricsCAD Lite</p>
+            <p>BricsCAD Lite</p>
+            <p>BricsCAD Lite</p>
+            <p>BricsCAD Lite</p>
+        </div>
+        <!-- -------------Services of footer----------------- -->
+        <div class="col-3">
+            <h2>Services</h2>
+            <p>Design CAD</p>
+            <p>Design CAD</p>
+            <p>Design CAD</p>
+            <p>Design CAD</p>
+        </div>
+        <!-- ------------Map of footer------------- -->
+        <div class="col-4">
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.7014939378414!2d72.85719081482543!3d19.
+                295343186962484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b15b28651e0d%3A0xb0ebd8d748665ff9!2sNakshatra%20
+                Tower!5e0!3m2!1sen!2sin!4v1673173792842!5m2!1sen!2sin"
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <ul class="social">
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <!-- <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li> -->
+                <li><a href="https://www.linkedin.com/jobs/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- ---------------JavaScrip for Toggle Menu------------------------ -->
+    <script src="js/toggle.js"></script>
+
+    <!-- ------ Swiper JS---------->
+    <script src="js/swiper-bundle.min.js"></script>
+
+</body>
+</html>
