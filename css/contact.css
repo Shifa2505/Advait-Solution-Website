@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    /* background-color: blueviolet; */
+}
+p{
+    font-size: 1rem;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 7px;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 35px;
+}
+.contact-dashboard{
+    width: 80%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.get-in-touch{
+    padding: 15px;
+    width: 30%;
+}
+.get-in-touch h1{
+    color: rgb(103, 102, 102);
+}
+.get-in-touch p{
+    color: rgb(103, 102, 102);
+    letter-spacing: 2px;
+}
+.contact-form-card{
+    width: 60%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    background-color: #fff;
+    min-height: 90vh;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px #aaa;
+}
+.contact-form form{
+    width: 80%;
+}
+.input-line{
+    display: flex;
+    justify-content: space-between;
+}
+.input-line .input-field{
+    flex-basis: 40%;
+}
+.contact-form input{
+    margin-bottom: 55px;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid rgb(103, 102, 102);
+    outline: none;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+.contact-form button{
+    width: 200px;
+    background-color: #5199f4;
+    padding: 18px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* ****************RESPONSIVE CONTACT DASHBOARD***************** */
+
+
+/* ****************CONTACT INFO CARD********************* */
+.contact-info-card{
+    min-height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(#5199f4 50%, #fff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-container{
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.info-content{
+    width: 25%;
+    background-color: #fff;
+    min-height: 35vh;
+    box-shadow: 0 5px 5px #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.info-content i{
+    font-size: 3rem;
+    color: #5199f4;
+    padding: 20px;
+}
+.info-content a{
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+}
+.info-content p{
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/* ---------------------   RESPONSIVE CONTACT INFO CARD  ---------------------------- */
+
+
+/* *************** hear from us********************* */
