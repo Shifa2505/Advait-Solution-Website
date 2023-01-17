@@ -91,7 +91,33 @@ textarea{
 }
 
 /* ****************RESPONSIVE CONTACT DASHBOARD***************** */
+@media(max-width: 768px){
+    .header{
+        min-height: 180vh;
+    }
+    .contact-container{
+        min-height: 150vh;
+    }
+    .contact-dashboard{
+        flex-direction: column;
+        min-height: 140vh;
+    }
+    .get-in-touch{
+        width: 100%;
+        min-height: 40vh;
+    }
+    .contact-form-card{
+        width: 100%;
+    }
+    .contact-form {
+        width: 90%;
+        box-shadow: 60px -16px #5199f4;
 
+    }   
+    .input-line{
+        flex-direction: column;
+    }
+}
 
 /* ****************CONTACT INFO CARD********************* */
 .contact-info-card{
@@ -137,5 +163,105 @@ textarea{
 
 /* ---------------------   RESPONSIVE CONTACT INFO CARD  ---------------------------- */
 
-
 /* *************** hear from us********************* */
+.hear-us{
+    /* background-color: grey; */
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hear-container{
+    /* background-color: darkseagreen; */
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.hear-text{
+    /* background-color: green; */
+    width: 40%;
+    padding: 60px 0px 0px 70px;
+}
+
+.hear-text p{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.demo{
+    /* background-color: brown; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+/* **********************ACCORDION************************* */
+.free-demo-accordion{
+    width: 90%;
+    background-color: #5199f4;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.free-demo-accordion li{
+    list-style: none;
+    width: 80%;
+    margin-bottom: 15px;
+    color: #fff;
+    padding: 5px;
+    /* margin-top: 50px; */
+}
+.free-demo-accordion li label{
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+.demo-content{
+    display: flex;
+}
+.demo-content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.demo-content i{
+    font-size: 2.5rem;
+    color: rgb(103, 102, 102);
+}
+.demo-btn button{
+    width: 200px;
+    background-color: #fff;
+    padding: 18px 5px;
+    font-size: 1.3rem;
+    color: #5199f4 ;
+    border: none;
+    /* border-radius: 25px ; */
+    cursor: pointer;
+    margin-top: 30px;
+}
+.free-demo-accordion .divider{
+    height: 4px;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+input[type="radio"]{
+    display: none;
+}
+.free-demo-accordion .demo-btn{
+    /* line-height: 26px; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}  
+.free-demo-accordion label + input[type="radio"]:checked + .demo-content + .demo-btn{
+    max-height: 300px;
+}
+
+/* ----------------- Responsive hear from us -------------------- */
