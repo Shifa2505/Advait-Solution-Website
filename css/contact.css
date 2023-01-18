@@ -162,7 +162,29 @@ textarea{
 }
 
 /* ---------------------   RESPONSIVE CONTACT INFO CARD  ---------------------------- */
+@media(max-width: 768px){
+    .contact-info-card{
+        background: linear-gradient(
+            #fff 25%,
+            #5199f4 25%,
+            #5199f4 80%,
+            #fff 25%
+            );
+    }
+    .info-container{
+        flex-direction: column;
+        width: 75%;
+        text-align: center;
+    }
+    .info-content{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .info-content i{
+        padding-left: 0;
+    }
 
+}
 /* *************** hear from us********************* */
 .hear-us{
     /* background-color: grey; */
@@ -265,3 +287,24 @@ input[type="radio"]{
 }
 
 /* ----------------- Responsive hear from us -------------------- */
+@media(max-width: 768px){
+    .hear-container{
+        flex-direction: column;
+    }
+    .hear-text{
+        width: 80%;
+    }
+    .demo{
+        width: 100%;
+    }
+    .free-demo-accordion li{
+        width: 90%;
+    }
+    .demo-content {
+        text-align: left;
+        width: 80%;
+    }
+    .free-demo-accordion span{
+        text-align: right;
+    }
+}
