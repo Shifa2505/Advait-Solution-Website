@@ -118,101 +118,7 @@ nav .fa-solid{
 }
 
 
-/* -------------Responsive Home Page Content---------------- */
-@media(max-width: 768px){
-    *:not(.testimonial *){
-        width: 100%;
-        overflow-x: hidden;
-    }
-    /* *{
-        width: 100%;
-        /* overflow-x: hidden; */
-    /* }   */
-    h2{
-        font-size: 2.5rem;
-    } 
-    .header{
-        background-image: none;
-        width: 100%;
-    }
-        
-    .dashboard{
-        flex-direction: column ;
-        margin-top: 130px;
-        justify-content: left;
-        align-items: baseline;
-        position: absolute;
-        /* background-color: bisque; */
-    }
-    .nav-links ul li{
-        display: block;
-        padding-bottom: 12px;
-    }
-    .nav-links ul li ul{
-        position: relative;
-    }
-    .dropdown-1{
-        display: block;
-    }
- 
-    .nav-links ul li a{
-        font-size: 1.5rem;
-        display: flex;
-    }
-    .nav-links ul li a i{
-        padding-left: 15px;
-    }
-    .nav-links ul{
-        padding: 30px;
-    }
-    .nav-links{
-        display: none;
-        position: absolute;
-        background: #5199f4;
-        height: 100vh;
-        width: 280px;
-        top: 0;
-        right: 0;
-        text-align: left;
-        z-index: 2;
-    }
-    .home-content h2{
-        font-size: 2.5rem;
-    }
-    .home-content h1{
-        font-size: 3.5rem;
-    }
-    .home-content p{
-        font-size: 1.6rem;
-        padding-top: 15px;
-        text-align: left;
-        width: 80%;
-    }
-    .home-content button{
-        margin-top: 55px;
-        padding: 10px;
-        font-size: 2rem;
-        width: 350px;
-    }
-    nav .fa-solid{
-        display: block;
-        color: #fff;
-        /* color: #5199f4; */
-        margin: 10px;
-        font-size: 2.5rem;
-        cursor: pointer;
-    }
-    nav .bar{
-        color: #5199f4;
-        width: 150px;
-        font-size: 3.5rem;
-    }
-    .home-img{
-        padding-left: 50px; 
-        width: 80%;
-    }
 
-}
 /* About us main page  */
 
 .about{
@@ -265,39 +171,7 @@ nav .fa-solid{
 }
 
 
-/* ------------------------Responsive About Us page----------------------------------------- */
-@media(max-width: 768px){
-    .about{
-        flex-direction: column;
-        margin-top: 250px;
-    }
-    .about-text{
-        padding: 25px 0 0 2px;
-    }
-    .about-text h2{
-        font-weight: 700;
-        padding-bottom: 15px;
-        letter-spacing: 5px;
-    }
-    .about-text p{
-        font-size: 1.4rem;
-        text-align: left;
-        letter-spacing: 1px;
-    }
-    .abt-btn{
-        width: 40%;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #5199f4;
-        border: 4px solid #5199f4;
-        background-color: #fff;
-    }
-    .about-img{
-        width: 75%;
-        padding-top: 130px;
-    }
-   
-}
+
 
 /* Why choose bricscad page */
 .bricscad{
@@ -341,34 +215,7 @@ nav .fa-solid{
     font-size: 1rem;
 }
 
-/* ----------------------Responsive Why Choose BricsCAD page ------------------------------- */
-@media(max-width: 768px){
-    .bricscad{
-        flex-direction: column-reverse;
-        background-image: none;
-    }
-    .bricscad-text{
-        padding: 250px 0 0 2px;
-    }
 
-    .bricscad-text h2{
-        text-align: left;
-        margin-left: 0px;
-    }
-    .bricscad-text p{
-        padding-top: 45px;
-        font-size: 1.6rem;
-        text-align: right;
-    }
-    .bricscad-img{
-        width: 80%;
-        padding-top: 130px;
-        background-image: url(/images/choose_img.png);
-        background-repeat: no-repeat;
-        background-size: 1000px 570px;
-        padding-bottom: 200px;
-    }
-}
 
 /* Features in home page */
 .feature{
@@ -451,54 +298,6 @@ nav .fa-solid{
     margin-top: 30px;
     border-radius: 45px;
 }
-/* ---------------------------Responsive Features Page------------------------------------- */
-@media(max-width: 768px){
-    .feature{
-        display: flex;
-        flex-direction: column;
-        background-image: none;
-        justify-content: center;
-        align-items: center;
-    }
-    .feat-text{
-        text-align: center;
-        justify-content: center; 
-    } 
-    .feat-text h2{
-        padding: 25px 0 0 2px;
-        font-weight: 450;
-        letter-spacing: 5px;
-    }
-    .feature-container{
-        align-items: center;
-        width: 80%;
-        margin-top: 50px;
-    }
-    .feature-card{
-        flex-direction: column;
-        margin-left: 0;
-        box-shadow: 5px 7px 7px 7px rgb(127, 123, 123);
-        width: 80%;
-        margin-bottom: 120px;
-    }
-    .feature-card .feature-content{
-        min-width: 100px;
-    } 
-    .feature-content h3{
-        font-size: 2.8rem;
-        font-weight: 400;
-    }
-    .feature-content p{
-        font-size: 1.6rem;
-    }
-    .feature button{
-        margin-left: 0;
-        margin-right: 50px;
-        font-size: 2rem;
-        padding: 10px;
-        width: 60%;
-    }
-}
 
 
 
@@ -573,36 +372,7 @@ nav .fa-solid{
     border-radius: 45px;
 }
 
-/* --------------------------- Product Responsive Page ----------------------------------------- */
-@media(max-width: 768px){
-    .product{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 200px;
-    }
-    .product-text{
-        text-align: center;
-        justify-content: center; 
-    } 
-    .product-text h2{
-        padding: 25px 0 0 2px;
-        font-weight: 450;
-        letter-spacing: 5px;
-    }
-    .product-container{
-        flex-direction: column;
-        width: 80%;
-    }
-    .product-card{
-        margin-left: 0;
-        width: 90%;
-    }
-    .product button{
-        margin-left: 0;
-    }
-}
+
 
 /* -------------------- Services in main home page ---------------------------- */
 .service{
@@ -677,36 +447,6 @@ nav .fa-solid{
     margin-bottom: 20px;
     margin-top: 30px;
     border-radius: 45px;
-}
-/* ---------------------------- Services Responsive Page ----------------------------------------------------- */
-@media(max-width: 768px){
-    .service{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 200px;
-    }
-    .service-text{
-        text-align: center;
-        justify-content: center; 
-    } 
-    .service-text h2{
-        padding: 25px 0 0 2px;
-        font-weight: 450;
-        letter-spacing: 5px;
-    }
-    .service-container{
-        flex-direction: column;
-        width: 80%;
-    }
-    .service-card{
-        margin-left: 0;
-        width: 90%;
-    }
-    .service button{
-        margin-left: 0;
-    }
 }
 
 /* --------------------Hear from our customers in main page-------------------- */
@@ -796,52 +536,6 @@ nav .fa-solid{
 }
 .swiper-navBtn:hover{
     color: #063e83;
-}
-/* --------------------------- Hear from our customer responsive page --------------------------------------- */
-
-@media(max-width: 768px){
-    .testimonial{
-        margin-top: 100px;
-    }
-    .testimonial-title{
-        text-align: left;
-        justify-content: center;
-    }
-    .testimonial-title h2{
-        padding: 25px 0 0 2px;
-        font-weight: 550;
-        letter-spacing: 5px;
-    }
-    .testimonial-container{
-        display: inline;
-        width: 80%;
-        height: 600px;
-        text-align: center;
-        justify-content: center;
-        object-fit: cover;
-    }
-    .testimonial-content{
-        height: 600px;
-    }
-    .testimonial-card{
-        height: 600px;
-        width: 80%;
-        flex-direction: column;
-    }
-    .testimonial-text{
-        margin-top: 10px;
-        padding: 30px;
-        text-align: left;
-        margin-right: 0px;
-        width: 80%;
-    }
-    .testimonial-text h3{
-        padding-top: 0;
-        font-size: 2.5rem;
-    }
-    .swiper-navBtn{
-        display: none;
-    }
 }
 
 /* ******************* CONTACT US PART OF MAIN PAGE **************************** */
@@ -979,116 +673,6 @@ textarea{
     color: #fff;
     font-size: 2.3rem;
 }
-/* ------------------------------- Responsive Contact us part of main page------------------------------------------- */
-@media (max-width: 768px){
-    .image-holder{
-        display: flex;
-        flex-direction: column;
-        background-color: #fff ;
-        height: 210vh;
-    }
-    .map-img{
-        padding: 0;
-        position: absolute;
-    }
-    .contact-us{
-        display: flex;
-        flex-direction: column;
-        z-index: 2;
-        margin-left: 0;
-        width: 100%;
-        height: 550px;
-        align-items: center;
-    }
-    .contact-us h1{
-        width: 80%;
-        font-size: 2.8rem;
-        padding-top: 50px;
-        padding-bottom: 15px;
-        margin-top: 10px;
-    }
-    .contact-us .info-box div{
-        width: 80%; 
-        margin-left: 50px;
-    }
-    .contact-us .info-box div span{
-        margin-right: 10px;
-        margin-bottom: 15px;
-        max-width: 10px;
-        height: 80px;
-        font-size: 2.5rem;
-        
-    }
-    .contact-us .info-box div p{
-        margin-left: 10px;
-        width: 100%;
-        font-size: 1.5rem;
-        align-items: center;
-    }
-    .contact-us .info-box div a{
-        font-size: 1.5rem;
-        width: 100%;
-        margin-top: 25px;
-        margin-left: 10px;
-
-    }
-    .social{
-        margin-left: 50px;
-        width: 80%;
-        justify-content: space-evenly;
-    }
-    .social li{
-        margin-right: 0;
-    }
-    .social li a{
-        font-size: 3.5rem;
-    }
-    .send-message{
-        z-index: 1;
-        /* background-color: darkgreen; */
-        height: 800px;
-        margin-left: 0;
-        margin-top: 820px;
-        width: 100%;
-    }
-    .send-message h1{
-        margin-left: 50px;
-        width: 80%;
-        padding-top: 50px;
-        font-size: 2.8rem;
-        font-weight: 600;
-        padding-bottom: 50px;
-    }
-    .input-row{
-        flex-direction: column;
-        margin-left: 50px;
-        width: 80%;
-        margin-bottom: 15px;
-    }
-    .input-group{
-        margin-bottom: 20px;
-    }
-    input{
-        width: 60%;
-        height: 65px;
-        font-size: 1.6rem;
-    }
-    .txtarea{
-        width:90%;
-    }
-    textarea {
-        margin-left: 50px;
-        height: 65px;
-        font-size: 1.6rem;
-    }
-    .send-message button{
-        width: 40%;
-        margin-left: 50px;
-        font-size: 1.5rem;
-        margin-top: 30px;
-    }
-
-}
 
 /* ******************* FOOTER *************************** */
 .footer{
@@ -1099,14 +683,6 @@ textarea{
     display: flex;
 }
 
-/* -----------------RESPONSIVE FOOTER------------------------- */
-@media(max-width: 768px){
-    .footer{
-        flex-direction: column;
-        height: 220vh;
-        margin-top: 100px;
-    }
-}
 
 /* ---------------Newslettwe part of the footer------------------------ */
 .col-1{
@@ -1160,39 +736,7 @@ textarea{
     background-color: red; 
 
 }
-/* ------------------RESPONSIVE Newslettwe part of the footer------------------------ */
-@media(max-width: 768px){
-    .col-1{
-        width: 95%;
-        height: 80vh;  
-    }
-    .col-1 h1{
-        font-weight: 550;
-    }
-    .newsletter{
-        width: 80%;
-        height: 450px;
-        margin-left: 50px;
-    }
-    .col-1 p{
-        font-size: 1.4rem;
-    }
-    .news-row{
-        flex-direction: column;
-        padding-bottom: 10px;
-    }
-    .input-news{
-        padding-bottom: 15px;
-    }
-    .news-mail{
-        width: 100%;
-        padding-bottom: 20px;
-    }
-    .news-btn button{
-        font-size: 1.6rem;
-        width: 40%;
-    }
-}
+
 /* --------------------Products part of the footer------------------------- */
 .col-2{
     display: flex;
@@ -1213,26 +757,7 @@ textarea{
     color: #fff;
     padding: 10px;
 }
-/*----------- RESPONSIVE Products part of the footer */
-@media(max-width: 768px){
-    .col-2{
-        width: 80%;
-        margin-left: 30px;
-        height: 45vh;
-        margin-top: 0;
-    }
-    .col-2 h2{
-        font-size: 3rem;
-        font-weight: 500;
-        width: 80%;
-        text-align: left;
-    }
-    .col-2 p{
-        font-size: 1.6rem;
-        width: 80%;
-        text-align: left;
-    }
-}
+
 /* -------------------Services part of the footer---------------- */
 .col-3{
     width: 20%;
@@ -1253,25 +778,7 @@ textarea{
     color: #fff;
     padding: 10px;
 }
-/* -------------- Responsive Services part of the footer ----------------- */
-@media(max-width: 768px){
-    .col-3{
-        width: 80%;
-        margin-left: 30px;
-        height: 45vh;
-    }
-    .col-3 h2{
-        font-size: 3rem;
-        font-weight: 500;
-        width: 80%;
-        text-align: left;
-    }
-    .col-3 p{
-        font-size: 1.6rem;
-        width: 80%;
-        text-align: left;
-    }
-}
+
 /* ----------------Map part of the footer-------------------- */
 .col-4{
     width: 30%;
@@ -1285,12 +792,4 @@ textarea{
 iframe{
     height: 270px;
     width: 340px;
-}
-/* -----------Responsive map part of the footer----- */
-@media(max-width: 768px){
-    .col-4{
-        width: 80%;
-        margin-left: 20px;
-        height: 55vh;
-    }
 }

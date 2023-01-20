@@ -93,34 +93,7 @@ textarea{
     margin-top: 20px;
 }
 
-/* ****************RESPONSIVE CONTACT DASHBOARD***************** */
-@media(max-width: 768px){
-    .header{
-        min-height: 180vh;
-    }
-    .contact-container{
-        min-height: 150vh;
-    }
-    .contact-dashboard{
-        flex-direction: column;
-        min-height: 140vh;
-    }
-    .get-in-touch{
-        width: 100%;
-        min-height: 40vh;
-    }
-    .contact-form-card{
-        width: 100%;
-    }
-    .contact-form {
-        width: 90%;
-        box-shadow: 60px -16px #5199f4;
 
-    }   
-    .input-line{
-        flex-direction: column;
-    }
-}
 
 /* ****************CONTACT INFO CARD********************* */
 .contact-info-card{
@@ -167,30 +140,7 @@ textarea{
     letter-spacing: 3px;
 }
 
-/* ---------------------   RESPONSIVE CONTACT INFO CARD  ---------------------------- */
-@media(max-width: 768px){
-    .contact-info-card{
-        background: linear-gradient(
-            #fff 25%,
-            #5199f4 25%,
-            #5199f4 80%,
-            #fff 25%
-            );
-    }
-    .info-container{
-        flex-direction: column;
-        width: 75%;
-        text-align: center;
-    }
-    .info-content{
-        width: 90%;
-        margin-bottom: 25px;
-    }
-    .info-content i{
-        padding-left: 0;
-    }
 
-}
 /* *************** hear from us********************* */
 .hear-us{
     /* background-color: grey; */
@@ -292,25 +242,3 @@ input[type="radio"]{
     max-height: 300px;
 }
 
-/* ----------------- Responsive hear from us -------------------- */
-@media(max-width: 768px){
-    .hear-container{
-        flex-direction: column;
-    }
-    .hear-text{
-        width: 80%;
-    }
-    .demo{
-        width: 100%;
-    }
-    .free-demo-accordion li{
-        width: 90%;
-    }
-    .demo-content {
-        text-align: left;
-        width: 80%;
-    }
-    .free-demo-accordion span{
-        text-align: right;
-    }
-}
