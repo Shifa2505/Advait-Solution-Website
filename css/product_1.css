@@ -46,8 +46,8 @@ h1{
     padding-right: 30px;
 }
 .product1-img img{
-    width: 750px;
-    height: 55vh;
+    max-width: 750px;
+    max-height: 55vh;
 }
 .sections{
     min-height: 30vh;
@@ -85,6 +85,65 @@ h1{
     letter-spacing: 1px;
 }
 .familiar-img img{
-    width: 700px;
-    height: 50vh;
+    max-width: 700px;
+    max-height: 50vh;
 }
+.full-img img{
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 90%;
+}
+/*********************INTELLIGENT CAD***************************/
+.intelligent{
+    min-height: 150vh;
+    margin-top: 200px;
+    /* background-color: lightcoral; */ 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.intelligent-heading{
+    /* background-color: firebrick; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.intelligent-heading p{
+    padding: 25px;
+    width: 80%;
+    text-align: center;
+}
+.intel-wrap{
+    width: 90%;
+    /* background-color: moccasin; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intel1{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.intel-text{
+    padding-right: 20px;
+}
+.intel-text h2{
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.intel-text p{
+    padding-top: 20px;
+    width: 90%;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.intel-img img{
+    max-width: 600px;
+    max-height: 40vh;
+}
+
+
