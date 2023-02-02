@@ -145,5 +145,64 @@ h1{
     max-width: 600px;
     max-height: 40vh;
 }
+.intelligent button{
+    width: 300px;
+    background-color: #5199f4;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 5px 5px #aaa;
+    cursor: pointer;
+    margin-top: 80px;
+    border-radius: 45px;
+}
 
+/*********************** HIGH PERFORMANCE *******************************/
+.performance{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.performance-wrap{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}   
+.fast1{
+    display: flex;
+    padding: 30px;
+}
+.fast-text{
+    padding: 30px;
+    letter-spacing: 4px;
+}
+.fast-text h1{
+    font-size: 4rem;
+    display: inline;
+}
+.fast-text h2{
+    font-size: 2rem;
+    display: inline;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.fast-text p{
+    font-size: 1.2rem;
+}
+.multi-core{
+    width: 50%;
+}
+.multi-text{
+    padding: 20px;
+    letter-spacing: 3px;
+}
+.multi-text h3{
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+.multi-text p{
+    padding-top: 10px;
+}
 
