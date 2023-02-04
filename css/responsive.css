@@ -654,4 +654,26 @@
     .intelligent-heading p{
         font-size: 1.3rem;  
     }
+    .intel1{
+        width: 90%;
+        flex-direction: column;
+    }
+    .intel-text p{
+        padding-bottom: 30px;
+    }
+    /*********************** HIGH PERFORMANCE *******************************/
+    .performance-wrap{
+        flex-direction: column;
+        width: 90%;
+        margin-top: 150px;   
+    }
+    .fast1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fast-img img{
+        margin-left: 100px;
+        max-width: 120px;
+        max-height: 150px;
+    }
 } 
