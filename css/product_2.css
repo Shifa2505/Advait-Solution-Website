@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1.1rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+.header{
+    /* min-height: 70vh; */
+    /* background-color: burlywood; */
+    background-image: url(/images/product_ellipse.png);
+}
+.bom-dashboard{
+    min-height: 70vh;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bom-card{
+    min-height: 60vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px #aaa;
+
+}
+
+.bom-cardcontent{
+    margin-left: 40px;
+    width: 65%;
+}
+.bom-cardcontent h1{
+    text-align: left;
+    color: #e85c01;
+    text-shadow: 3px 3px #4093ff;
+}
+.bom-cardcontent p{
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-right: 110px;
+}
+.bom-img{
+    margin-left: 20px;
+}
+.bom-card button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #e85c01;
+    padding: 12px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 4px 4px #4093ff;
+    border-radius: 20px;
+}
+/* ************Automate Bill of Materials*********** */
+.automate{
+    min-height: 80vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.automate-wrap{
+    width: 90%;
+    display: flex;
+    background-color: plum;
+}
