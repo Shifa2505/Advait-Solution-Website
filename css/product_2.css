@@ -65,8 +65,8 @@ h1{
 }
 /* ************Automate Bill of Materials*********** */
 .automate{
-    min-height: 80vh;
-    background-color: pink;
+    min-height: 60vh;
+    /* background-color: pink; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,5 +74,73 @@ h1{
 .automate-wrap{
     width: 90%;
     display: flex;
-    background-color: plum;
+    /* background-color: plum; */
 }
+.automate-content{
+    /* margin-right: 100px; */
+    width: 55%;
+    letter-spacing: 1px;
+}
+.automate-content h2{
+    color: #5199f4;
+    padding-bottom: 15px;
+}
+.automate-yt-video iframe{
+    /* width: 50%; */
+    margin-left: 80px;
+    width: 520px;
+    height: 320px;
+}
+/* *************** Challenges **************** */
+.challenges{
+    min-height: 100vh;
+    margin-top: 80px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.challenges-wrap{
+    min-height: 90vh;
+    /* background-color: chartreuse; */
+    width: 90%;
+}
+.challenges-heading{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5199f4;
+}
+.challenges-content{
+    display: flex;
+}
+.chal-column{
+    /* min-height: 20vh; */
+    margin-top: 55px;
+    width: 50%;
+    /* background-color: chocolate; */
+}
+.chal-row{
+    display: flex;
+    margin-bottom: 130px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.chal-row p{
+    width: 90%;
+    margin-left: 30px;
+}
+.challenges-content span{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #5199f4;
+}
+/* i{
+    background-color: #aaa;
+    width: 70px;
+    height: 70px;
+} */
