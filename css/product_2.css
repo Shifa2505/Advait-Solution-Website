@@ -144,3 +144,70 @@ h1{
     width: 70px;
     height: 70px;
 } */
+/* ************* Help Design ************** */
+.helps-design{
+    min-height: 100vh;
+    margin-top: 80px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.helps-design .chal-row{
+    margin-bottom: 80px;
+}
+.helps-design span{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 1.5rem;
+}
+/* *****BOM FEATURE MATRIX******** */
+.matrix{
+    min-height: 110vh;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+.matrix-wrap{
+    min-height: 100vh;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+.matrix-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5199f4;
+}
+.matrix-table table{
+    /* width: 100%; */
+    width: 1400px;
+    height: 75vh;
+    /* background-color: #fff; */
+    margin-top: 30px;
+}
+.matrix-table table, th, td {
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    text-align: center;
+}
+.matrix-table td{
+    font-size: 1.1rem;
+}
+.matrix-table th{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #5199f4;
+    letter-spacing: 1px;
+}
+.matrix-table i{
+    font-size: 2rem;
+    color: #5199f4;
+}
