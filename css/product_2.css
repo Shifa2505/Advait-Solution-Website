@@ -211,3 +211,34 @@ h1{
     font-size: 2rem;
     color: #5199f4;
 }
+/* ************ Talk to our team************ */
+.talk-team{
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e7e7;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.talk-team-content h2{
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.talk-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talk-team-content button{
+    width: 380px;
+    margin-top: 20px;
+    background-color: #5199f4;
+    padding: 10px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 4px 4px #aaa;
+    border-radius: 20px;
+}
