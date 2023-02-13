@@ -242,3 +242,72 @@ h1{
     box-shadow: 0 4px 4px #aaa;
     border-radius: 20px;
 }
+/* ******BOM creater get in touch with us******* */
+.bom-get-in-touch{
+    min-height: 100vh;
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+}
+.bom-get-in-touch-wrap{
+    min-height: 90vh;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    /* background-color: crimson; */
+}
+.bom-get-touch-content{
+    /* background-color: darkblue; */
+    /* background-color: #fff; */
+    width: 30%;
+    margin-top: 150px;
+}
+.bom-get-touch-content h2{
+    letter-spacing: 2px; 
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+}
+.bom-get-touch-content a,p{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.bom-get-touch-form{
+    /* background-color: darkgreen; */
+    /* background-color: #fff; */
+    margin-top: 150px;
+    width: 60%;
+}
+.bom-get-touch-form form{
+    /* margin-left: 0; */
+    /* width: 100%; */
+
+}
+.bom-get-touch-form .input-row{
+    margin-left: 0;
+    justify-content: space-between;
+}
+.bom-get-touch-form textarea{
+    margin-left: 0;
+    width: 90%;
+}
+.bom-get-touch-form input{
+    width: 80%;
+    /* height: 8vh; */
+}
+.bom-get-touch-form .input-row .input-group{
+    flex-basis: 60%;
+}
+.bom-get-touch-form button{
+    width: 380px;
+    margin-top: 50px;
+    background-color: #5199f4;
+    padding: 10px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 4px 4px #aaa;
+    border-radius: 20px;
+}
