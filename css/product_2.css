@@ -19,6 +19,7 @@ h1{
 }
 .bom-dashboard{
     min-height: 70vh;
+    /* background-color: #e85c01; */
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -138,6 +139,7 @@ h1{
     align-items: center;
     justify-content: center;
     color: #5199f4;
+    /* background-color: #e85c01; */
 }
 /* i{
     background-color: #aaa;
@@ -279,11 +281,6 @@ h1{
     /* background-color: #fff; */
     margin-top: 150px;
     width: 60%;
-}
-.bom-get-touch-form form{
-    /* margin-left: 0; */
-    /* width: 100%; */
-
 }
 .bom-get-touch-form .input-row{
     margin-left: 0;

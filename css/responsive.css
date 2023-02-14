@@ -677,3 +677,68 @@
         max-height: 150px;
     }
 } 
+/* PRODUCT 2 PAGE */
+/* *********PRODUCT 2 DASHBOARD********** */
+@media(max-width: 768px){
+    .bom-card{
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 0;
+    }
+    .bom-cardcontent{
+        padding-top: 25px;
+        width: 80%;
+        margin-left: 0;
+    }
+    .bom-cardcontent p{
+        font-size: 1.3rem;
+        padding-top: 20px;
+    }
+    .bom-cardcontent button{
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+    .bom-img{
+        width: 80%;
+        padding-bottom: 50px;
+    }
+    /* *********Automate bill section************ */
+    .automate-wrap{
+        width: 90%;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .automate-content p{
+        font-size: 1.3rem;
+        padding-bottom: 50px;
+    }
+    .automate-yt-video iframe{
+        margin-left: 0;
+        width: 580px;
+    }
+    /* Challenges */
+    .challenges-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .challenges-heading{
+        padding-bottom: 80px;
+    }
+    .challenges-content{
+        width: 80%;
+        flex-direction: column;
+    }
+    .chal-column{
+        margin-top: 0;
+    }
+    .chal-row p{
+        margin-left: 0;
+        font-size: 1.3rem;
+    }
+    .challenges-content span{
+        max-width: 80px;
+    }
+}
