@@ -723,6 +723,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 90%;
     }
     .challenges-heading{
         padding-bottom: 80px;
@@ -740,5 +741,41 @@
     }
     .challenges-content span{
         max-width: 80px;
+    }
+    /* Bom Feature Matrix */
+    .matrix-wrap{
+        width: 90%;
+    }
+    .matrix-table{
+        width: 90%;
+    }
+    .matrix-table table{
+        width: 90%;
+
+        /* height: 120vh; */
+    }
+    .matrix-table th{
+        font-size: 0.6rem;
+    }
+    /* Talk to our team*/
+    .talk-team-content{
+        width: 95%;
+    }
+    .talk-team-content h2{
+        text-align: center;
+    }
+    /* get in touch bom creator */
+    .bom-get-in-touch-wrap{
+        margin-left: 40px;
+        flex-direction: column;
+    }
+    .bom-get-touch-form{
+        margin-top: 60px;
+    }
+    .bom-get-touch-form input{
+        width: 100%;
+    }
+    .bom-get-touch-form button{
+        font-size: 1.5rem;
     }
 }
