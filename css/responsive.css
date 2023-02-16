@@ -746,17 +746,46 @@
     .matrix-wrap{
         width: 90%;
     }
-    .matrix-table{
-        width: 90%;
-    }
     .matrix-table table{
-        width: 90%;
+        border: 3px solid #5199f4;
+    }
+    .matrix-table thead tr{
+        display: none;
+    }
+    .matrix-table td{
+        font-size: 1.5rem;
+    }
+    table tr{
+        display: block;
+        /* padding: 10px; */
+    }
+    table th, table td{
+        /* padding: 10px; */
+        /* border: none; */
+        border: 1px solid #5199f4;
+        border-right: none;
+        font-size: 1.5rem;
+    }
+    table td{
+        max-width: 95%;
+        text-align: right;
+        display: block;
+        font-size: 2rem;
+    }
+    table td::before{
+        content: attr(data-title) ": ";
+        float: left;
+        margin-top: 10px;
+    }
+    tbody tr:nth-child(even){
+        background-color: #5199f4;
+        color: #fff;
+    }
+    tbody tr:nth-child(even) i{
+        padding: 0;
+        color: #fff;
+    }
 
-        /* height: 120vh; */
-    }
-    .matrix-table th{
-        font-size: 0.6rem;
-    }
     /* Talk to our team*/
     .talk-team-content{
         width: 95%;
@@ -768,6 +797,12 @@
     .bom-get-in-touch-wrap{
         margin-left: 40px;
         flex-direction: column;
+    }
+    .bom-get-touch-content h2{
+        font-size: 2rem;
+    }
+    .bom-get-touch-content a,p{
+        font-size: 1.5rem;
     }
     .bom-get-touch-form{
         margin-top: 60px;
