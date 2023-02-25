@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1.1rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+.header{
+    /* background-color: blueviolet; */
+    background-image: url(/images/product_ellipse.png);
+}
+.product3-dashboard{
+    min-height: 70vh;
+    margin-top: 70px;
+    /* background-color: firebrick; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product3-wrap{
+    width: 92%;
+    /* background-color: moccasin; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.product3-content{
+    margin-right: 190px;
+}
+.btn-wrap{
+    display: flex;
+}
+.product3-content button{
+    margin-top: 20px;
+    padding: 12px 5px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 4px #aaa;
+}
+.product3-content .product3-btn button{
+    /* display: flex; */
+    width: 250px;
+    background-color: #5199f4;
+    color: #fff ;
+    border: none;
+    border-radius: 20px;
+}
+.product3-content .feature-button button{
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    color: black ;
+    border: 2px solid black;
+    border-radius: 0px;
+    margin-left: 30px;
+    font-weight: 550;
+}
+.product3-content p{
+    margin-top: 20px;
+    font-weight: 550;
+}
+.product3-yt-video iframe{
+    width: 620px;
+    height: 320px;
+}

@@ -742,7 +742,7 @@
     .challenges-content span{
         max-width: 80px;
     }
-    /* Bom Feature Matrix */
+    /* Bom Feature Matrix responsive version*/
     .matrix-wrap{
         width: 90%;
     }
@@ -756,11 +756,8 @@
         font-size: 1.5rem;
     }
     table tr{
-        display: block;
-        /* padding: 10px; */
-    }
+        display: block;    }
     table th, table td{
-        /* padding: 10px; */
         /* border: none; */
         border: 1px solid #5199f4;
         border-right: none;
