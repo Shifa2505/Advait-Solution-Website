@@ -10,6 +10,11 @@ p{
 h1{
     font-size: 3rem;
     font-weight: 550;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 2.3rem;
+    font-weight: 550;
     letter-spacing: 2px;
 }
 .header{
@@ -33,7 +38,7 @@ h1{
 
 }
 .product3-content{
-    margin-right: 190px;
+    margin-right: 160px;
 }
 .btn-wrap{
     display: flex;
@@ -69,4 +74,245 @@ h1{
 .product3-yt-video iframe{
     width: 620px;
     height: 320px;
+}
+.sections{
+    min-height: 30vh;
+    /* background-color: cornsilk; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sections a{
+    color: black;
+    padding: 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.sections a:hover{
+    font-size: 2rem;
+    color: #5199f4;
+}
+/* product 3 familiar ************************************** */
+.product3-familiar{
+    min-height: 110vh;
+    margin-top: 100px;
+    /* background-color: lightcoral;     */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+     */
+    align-items: center;
+}
+.product3-familiar-heading{
+    /* background-color: firebrick; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    /* margin-bottom: 0; */
+}
+.product3-familiar-heading p{
+    padding: 25px;
+    width: 55%;
+    text-align: center;
+}
+/* .familiar-full-img{
+    margin-top: 360px;
+    background-color: #808080;
+    margin-left: 80px;
+    width: 90%;
+} */
+/* ************ Bricscad pro and auto lisp part************* */
+.lisp{
+    min-height: 110vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+}
+.lisp-wrap{
+    width: 90%;
+    display: flex;
+    justify-content: center; 
+}
+.autocad{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.autocad-img{
+    width: 85%;
+}
+.autocad-content{
+    width: 85%;
+    margin-top: 20px;
+}
+.lisp p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    text-align: left;
+}
+.check-box{
+    width: 85%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.check-line{
+    display: flex;
+}
+.check-line p{
+    margin-left: 20px;
+}
+.autolisp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.autolisp-img{
+    width: 85%;
+}
+.autolisp-content{
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.lisp-card{
+    width: 85%;
+    background-color: #5199f4;
+    /* background-color: #005fa0; */
+    color: white;
+}
+.lisp-card-wrap{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 20px 20px 30px;
+}
+.lisp-card-content p{
+    font-size: 1.2rem;
+}
+/* ****************** Explore the BricsCAD open CAD platform ********************** */
+.explore{
+    min-height: 55vh;
+    margin-top: 150px;
+    background-color: #005fa0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+}
+.explore-heading{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.explore-heading p{
+    padding: 25px;
+    width: 80%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/* Intelligent Design Tools********************************************************** */
+.design{
+    min-height: 155vh;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+}
+.design-heading{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.design-heading p{
+    padding: 25px;
+    font-size: 1.3rem;
+    width: 80%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.design-container{
+    display: flex;
+    margin-top: 50px;
+}
+.design-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    width: 40%;
+    flex-basis: 20%;
+    box-shadow: 0 5px 5px #aaa;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    background-color: #fff;
+}
+.design-card:hover{
+    box-shadow: 0 0 50px 0px #808080;
+}
+.design-img img{
+    width: 550px;
+    height: 350px;
+}
+.design-content{
+    margin-top: 10px;
+}
+.design-content h3{
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-weight: 550;
+    padding-top: 20px;
+}
+.design-content p{
+    margin-top: 20px;   
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    color: dimgray;
+}
+#blockify p{
+    margin-top: 100px;
+}
+.design button{
+    width: 250px;
+    height: 70px;
+    background-color: #005fa0;
+    font-size: 1.3rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 5px 5px #aaa;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 25px;
+}
+/* ************  high performance *************** */
+#performance{
+    margin-top: 100px;
+}
+#performance-wrap{
+    background-color: #005fa0;
+    color: #fff;
+}
+/* High performance graphics engine */
+#intelligent{
+    margin-top: 80px;
+    min-height: 80vh;
+}
+#engine-card{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+#engine-text{
+    margin-left: 50px;
 }
