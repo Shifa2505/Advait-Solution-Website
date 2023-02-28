@@ -116,12 +116,12 @@ h2{
     width: 55%;
     text-align: center;
 }
-/* .familiar-full-img{
-    margin-top: 360px;
-    background-color: #808080;
+.familiar-full-img img{
+    margin-top: 80px;
+    /* background-color: #808080; */
     margin-left: 80px;
     width: 90%;
-} */
+}
 /* ************ Bricscad pro and auto lisp part************* */
 .lisp{
     min-height: 110vh;
