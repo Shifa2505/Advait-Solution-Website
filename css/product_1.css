@@ -19,7 +19,7 @@ h1{
 .product1_dashboard{
     /* background-color: pink; */
     margin-top: 70px;
-    min-height: 70vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ h1{
     max-height: 55vh;
 }
 .sections{
-    min-height: 30vh;
+    min-height: 15vh;
     /* background-color: cornsilk; */
     display: flex;
     justify-content: center;

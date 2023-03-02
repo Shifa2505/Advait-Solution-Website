@@ -811,3 +811,115 @@
         font-size: 1.5rem;
     }
 }
+/* ********************************* PRODUCT 3 PAGE **************************************************** */
+@media(max-width: 768px){
+    /* <!-- Dashboard of Product 3 --> */
+    .product3-wrap{
+        width: 90%;
+        flex-direction: column;
+    }
+    .product3-content{
+        margin-right: 0;
+    }
+    .btn-wrap{
+        flex-direction: column;
+    }
+    .product3-content button{
+        box-shadow: none;
+    }
+    .product3-content .product3-btn button{
+        font-size: 1.5rem;
+        width: 350px;
+    }
+    .product3-content .feature-button button{
+        margin-left: 0;
+        width: 400px;
+        font-size: 1.5rem;
+    }
+    .product3-yt-video{
+        margin-top: 30px;
+    }
+    .sections{
+        min-height: 35vh;
+        /* background-color: aliceblue; */
+    }
+    /* <!-- product 3 familar --> */
+    .product3-familiar{
+        min-height: 90vh;
+        /* background-color: aqua; */
+        /* margin-top: 0; */
+    }
+    .product3-familiar-heading{
+        width: 90%;
+    }
+    .product3-familiar-heading h1{
+        text-align: center;
+    }
+    .product3-familiar-heading p{
+        width: 70%;
+    }
+    .familiar-full-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .familiar-full-img img{
+        width: 90%;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    /* ************ Bricscad pro and auto lisp part************* */
+    .lisp-wrap{
+        flex-direction: column;
+        width: 90%;
+    }
+    .check-img img{
+        width: 95%;
+    }
+    .check-line p {
+        flex-basis: 750%;
+    }
+    .autolisp {
+        margin-top: 50px;
+    }
+    .lisp-card-wrap{
+        width: 90%;
+    }
+    .bulb-img img{
+        width: 20%;
+        height: 100px;
+    }
+    /* ****************** Explore the BricsCAD open CAD platform ********************** */
+    .explore-heading{
+        width: 90%;
+        text-align: center;
+    }
+    /* Intelligent Design Tools********************************************************** */
+    .design-heading{
+        width: 90%;
+        text-align: center;
+    }
+    .design-container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .design-card{
+        width: 90%;
+        margin-left: 0;
+    }
+    #blockify p{
+        margin-top: 20px;
+    }
+    .design button{
+        box-shadow: none;
+    }
+    /* ************  high performance *************** */
+    .multi-text{
+        width: 90%;
+    }
+    /* High performance graphics engine ****************************/
+    #engine-text{
+        margin-left: 0;
+    }
+}

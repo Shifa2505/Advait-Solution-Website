@@ -18,12 +18,13 @@ h2{
     letter-spacing: 2px;
 }
 .header{
+    /* min-height: 100vh; */
     /* background-color: blueviolet; */
     background-image: url(/images/product_ellipse.png);
 }
 .product3-dashboard{
-    min-height: 70vh;
-    margin-top: 70px;
+    min-height: 50vh;
+    margin-top: 45px;
     /* background-color: firebrick; */
     display: flex;
     justify-content: center;
@@ -76,7 +77,7 @@ h2{
     height: 320px;
 }
 .sections{
-    min-height: 30vh;
+    height: 15vh;
     /* background-color: cornsilk; */
     display: flex;
     justify-content: center;
@@ -84,7 +85,7 @@ h2{
 }
 .sections a{
     color: black;
-    padding: 30px;
+    /* padding: 30px; */
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -95,7 +96,7 @@ h2{
 /* product 3 familiar ************************************** */
 .product3-familiar{
     min-height: 110vh;
-    margin-top: 100px;
+    margin-top: -100px;
     /* background-color: lightcoral;     */
     display: flex;
     flex-direction: column;
@@ -162,6 +163,7 @@ h2{
 }
 .check-line{
     display: flex;
+    /* gap: 20px; */
 }
 .check-line p{
     margin-left: 20px;
