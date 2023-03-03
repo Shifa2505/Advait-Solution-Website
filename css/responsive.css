@@ -869,5 +869,57 @@
         margin-left: 0px;
         margin-top: 20px;
     }
-    
+    /* ************ Bricscad pro and auto lisp part************* */
+    .lisp-wrap{
+        flex-direction: column;
+        width: 90%;
+    }
+    .check-img img{
+        width: 95%;
+    }
+    .check-line p {
+        flex-basis: 750%;
+    }
+    .autolisp {
+        margin-top: 50px;
+    }
+    .lisp-card-wrap{
+        width: 90%;
+    }
+    .bulb-img img{
+        width: 20%;
+        height: 100px;
+    }
+    /* ****************** Explore the BricsCAD open CAD platform ********************** */
+    .explore-heading{
+        width: 90%;
+        text-align: center;
+    }
+    /* Intelligent Design Tools********************************************************** */
+    .design-heading{
+        width: 90%;
+        text-align: center;
+    }
+    .design-container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .design-card{
+        width: 90%;
+        margin-left: 0;
+    }
+    #blockify p{
+        margin-top: 20px;
+    }
+    .design button{
+        box-shadow: none;
+    }
+    /* ************  high performance *************** */
+    .multi-text{
+        width: 90%;
+    }
+    /* High performance graphics engine ****************************/
+    #engine-text{
+        margin-left: 0;
+    }
 }
