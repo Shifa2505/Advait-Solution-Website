@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1.1rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+.header{
+    /* min-height: 70vh; */
+    /* background-color: burlywood; */
+    background-image: url(/images/product_ellipse.png);
+}
+.bom-dashboard{
+    min-height: 70vh;
+    /* background-color: #e85c01; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bom-card{
+    min-height: 60vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px #aaa;
+
+}
+
+.bom-cardcontent{
+    margin-left: 40px;
+    width: 65%;
+}
+.bom-cardcontent h1{
+    text-align: left;
+    color: #e85c01;
+    text-shadow: 3px 3px #4093ff;
+}
+.bom-cardcontent p{
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-right: 110px;
+}
+.bom-img{
+    margin-left: 20px;
+}
+.bom-card button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #e85c01;
+    padding: 12px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 4px 4px #4093ff;
+    border-radius: 20px;
+}
+/* ************Automate Bill of Materials*********** */
+.automate{
+    min-height: 60vh;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.automate-wrap{
+    width: 90%;
+    display: flex;
+    /* background-color: plum; */
+}
+.automate-content{
+    /* margin-right: 100px; */
+    width: 55%;
+    letter-spacing: 1px;
+}
+.automate-content h2{
+    color: #5199f4;
+    padding-bottom: 15px;
+}
+.automate-yt-video iframe{
+    /* width: 50%; */
+    margin-left: 80px;
+    width: 520px;
+    height: 320px;
+}
+/* *************** Challenges **************** */
+.challenges{
+    min-height: 100vh;
+    margin-top: 80px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.challenges-wrap{
+    min-height: 90vh;
+    /* background-color: chartreuse; */
+    width: 90%;
+}
+.challenges-heading{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5199f4;
+}
+.challenges-content{
+    display: flex;
+}
+.chal-column{
+    /* min-height: 20vh; */
+    margin-top: 55px;
+    width: 50%;
+    /* background-color: chocolate; */
+}
+.chal-row{
+    display: flex;
+    margin-bottom: 130px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.chal-row p{
+    width: 90%;
+    margin-left: 30px;
+}
+.challenges-content span{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #5199f4;
+    /* background-color: #e85c01; */
+}
+/* i{
+    background-color: #aaa;
+    width: 70px;
+    height: 70px;
+} */
+/* ************* Help Design ************** */
+.helps-design{
+    min-height: 100vh;
+    margin-top: 80px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.helps-design .chal-row{
+    margin-bottom: 80px;
+}
+.helps-design span{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 1.5rem;
+}
+/* *****BOM FEATURE MATRIX******** */
+.matrix{
+    min-height: 110vh;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+.matrix-wrap{
+    min-height: 100vh;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+.matrix-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5199f4;
+}
+.matrix-table table{
+    width: 100%;
+    /* width: 1400px; */
+    min-height: 75vh;
+    /* background-color: #fff; */
+    box-shadow: 0 5px 5px #aaa;
+    margin-top: 50px;
+}
+.matrix-table table, th, td {
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    text-align: center;
+}
+.matrix-table td{
+    font-size: 1.1rem;
+}
+.matrix-table th{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #5199f4;
+    letter-spacing: 1px;
+}
+.matrix-table i{
+    font-size: 2rem;
+    color: #5199f4;
+}
+/* ************ Talk to our team************ */
+.talk-team{
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e7e7;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.talk-team-content h2{
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.talk-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talk-team-content button{
+    width: 380px;
+    margin-top: 20px;
+    background-color: #5199f4;
+    padding: 10px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 4px 4px #aaa;
+    border-radius: 20px;
+}
+/* ******BOM creater get in touch with us******* */
+.bom-get-in-touch{
+    min-height: 100vh;
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+}
+.bom-get-in-touch-wrap{
+    min-height: 90vh;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    /* background-color: crimson; */
+}
+.bom-get-touch-content{
+    /* background-color: darkblue; */
+    /* background-color: #fff; */
+    width: 30%;
+    margin-top: 150px;
+}
+.bom-get-touch-content h2{
+    letter-spacing: 2px; 
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+}
+.bom-get-touch-content a,p{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.bom-get-touch-form{
+    /* background-color: darkgreen; */
+    /* background-color: #fff; */
+    margin-top: 150px;
+    width: 60%;
+}
+.bom-get-touch-form .input-row{
+    margin-left: 0;
+    justify-content: space-between;
+}
+.bom-get-touch-form textarea{
+    margin-left: 0;
+    width: 90%;
+}
+.bom-get-touch-form input{
+    width: 80%;
+    /* height: 8vh; */
+}
+.bom-get-touch-form .input-row .input-group{
+    flex-basis: 60%;
+}
+.bom-get-touch-form button{
+    width: 380px;
+    margin-top: 50px;
+    background-color: #5199f4;
+    padding: 10px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 4px 4px #aaa;
+    border-radius: 20px;
+}
