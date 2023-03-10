@@ -95,3 +95,53 @@ h2{
     font-size: 2rem;
     color: #5199f4;
 }
+/* Intelligent Mechanical Design*********************** */
+.product3-intelligent{
+    min-height: 110vh;
+    margin-top: -100px;
+    /* background-color: lightcoral;     */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+     */
+    align-items: center;
+}
+.product3-intelligent-heading{
+    /* background-color: firebrick; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    /* margin-bottom: 0; */
+}
+.product3-intelligent-heading p{
+    padding: 25px;
+    width: 55%;
+    text-align: center;
+}
+.intelligent-full-img img{
+    margin-top: 20px;
+    /* background-color: #808080; */
+    margin-left: 80px;
+    width: 90%;
+}
+/* Mechanical Accordion */
+.mechanical-accordion{
+    min-height: 120vh;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mech-acc-container{
+    background-color: pink;
+    display: flex;
+    width: 95%;
+}
+
+[data-tab-content] {
+    display: none;
+}
+.active[data-tab-content] {
+    display: block;
+}

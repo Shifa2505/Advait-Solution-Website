@@ -13,6 +13,8 @@
     <!-- product 2 css -->
     <link rel="stylesheet" href="css/product_3.css">
     <!-- <link rel="stylesheet" href="css/product_2.css"> -->
+    <!-- mechanical accordion js -->
+    <script src="js/mech-accordion.js" defer></script>
     <!-- responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -86,224 +88,39 @@
             <a href="#seamless">Seamless Data Reuse</a>
         </div>
     </section> 
-    <!-- product 3 familar -->
-    <section class="product3-familiar" id="familiar">
-        <div class="product3-familiar-heading">
-            <h1>Familiar and Compatible CAD</h1>
-            <p>BricsCAD is fully based on the industry standard dwg format, with full command,
-                script, macro and menu compatibility. BricsCAD feels like home!</p>
+    <!-- Intelligent Mechanical Design -->
+    <section class="product3-intelligent" id="intelligent">
+        <div class="product3-intelligent-heading">
+            <h1>Intelligent Mechanical Design</h1>
+            <p>BricsCAD makes advanced mechanical design accessible. It is intelligent, flexible,
+                affordable and, above all, enables greater design freedom.</p>
         </div>
-        <div class="familiar-full-img">
-            <img src="images/product3_familiar.png">
-        </div>
-    </section>
-    <!-- Bricscad pro and auto lisp part -->
-    <section class="lisp" id="open">
-        <div class="lisp-wrap">
-            <div class="autocad">
-                <div class="autocad-img">
-                    <img src="images/product3_comp.png">         
-                </div>
-                <div class="autocad-content">
-                    <h2>BricsCAD® Pro is highly
-                        compatible with AutoCAD®
-                        2022</h2>
-                    <p>There’s no need to change your printers,
-                        templates, blocks or sheet set layouts to
-                        move to BricsCAD – they are fully
-                        compatible. Command names, aliases, and
-                        system variables are the same in
-                        BricsCAD and AutoCAD®. BricsCAD is
-                        based on native DWG for the highest
-                        compatibility with other CAD users across
-                        all industries.</p>
-                </div>
-                <div class="check-box">
-                    <div class="check-line">
-                        <div class="check-img">
-                            <img src="images/product3_check.png">
-                        </div>
-                        <p>Command compatible</p>
-                    </div>
-                    <div class="check-line">
-                        <div class="check-img">
-                            <img src="images/product3_check.png">
-                        </div>
-                        <p>Menu (.CUI, .CUIX) compatible</p>
-                    </div>
-                    <div class="check-line">
-                        <div class="check-img">
-                            <img src="images/product3_check.png">
-                        </div>
-                        <p>Macro/script compatible</p>
-                    </div>
-                    <div class="check-line">
-                        <div class="check-img">
-                            <img src="images/product3_check.png">
-                        </div>
-                        <p>Support file (.PC3, .LIN, .PAT, .DWT, .SSM)</p>
-                    </div>
-                    <div class="check-line">
-                        <div class="check-img">
-                            <img src="images/product3_check.png">
-                        </div>
-                        <p>Based on 2018 DWG technology</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="autolisp">
-                <div class="autolisp-img">
-                    <img src="images/autolisp.png">
-                </div>
-                <div class="autolisp-content">
-                    <h2>AutoLISP and API support</h2>
-                    <p>BricsCAD fully supports LISP, slashing the
-                        time it takes to do repetitive drafting
-                        tasks. It s compatible with AutoCAD®
-                        AutoLISP format, making it simple to re
-                        use existing routines. It also features a
-                        powerful API, providing a platform for
-                        many industry specific independent
-                        applications.
-                        </p>
-                </div>
-                <div class="lisp-card">
-                    <div class="lisp-card-wrap">
-                        <div class="bulb-img">
-                            <img src="images/bulb.png">
-                        </div>
-                        <div class="lisp-card-content">
-                            <h2>Why use Lisp?</h2>
-                            <p>Lisp routines are the easiest way to automate
-                                processes and workflows for bulk layer
-                                manipulations, changing entity properties,
-                                automate drawing and XREF relationships,
-                                standardize plotting and publishing workflows,
-                                etc.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </section>
-    <!-- Explore the BricsCAD open CAD platform------------------- -->
-    <section class="explore">
-        <div class="explore-heading">
-            <h2>Explore the BricsCAD open CAD platform</h2>
-            <p>BricsCAD Pro is the heart of the open BricsCAD design platform. It s runtime eXtension (BRX) API enables you to develop your own
-                bespoke apps, offering developers a powerful base on which to build great industry specific solutions.
-                </p>
+        <div class="intelligent-full-img">
+            <img src="images/product4_2.png">
         </div>
     </section>
-    <!-- Intelligent Design Tools------------------------------------------ -->
-    <section class="design" id="intelligent-design">
-        <div class="design-heading">
-            <h2>Intelligent Design Tools</h2>
-            <p>BricsCAD features unique AI powered, intelligent tools to help you do more, faster. They help you
-                to automate manual tasks, optimise drawings, and assist user input, significantly reducing effort
-                and increasing your design productivity.</p>
-        </div>
-        <div class="design-container">
-            <div class="design-card"> 
-                <div class="design-img">
-                    <img src="images/parametric.png">
+    <!-- Mechanical Accordion -->
+    <section class="mechanical-accordion">
+        <div class="mech-acc-container">
+            <ul class="mech-accord">
+                <li data-tab-target="#part">Part Design</li>
+                <li data-tab-target="#sheet">Sheet Metal Design </li>
+                <li data-tab-target="#assembly">Assembly Design</li>
+            </ul>
+            <div class="mech-accord-content">
+                <div id="part" data-tab-content class="active">
+                    <h1>this is part design </h1>
                 </div>
-                <div class="design-content">
-                    <h3>Parametric Blocks: a dynamic
-                        approach to creating 2D or 3D
-                        Blocks</h3>
-                    <p>Parametric blocks automate repetitive tasks by allowing
-                        users to create one block instead of lots of similar,
-                        separate block definitions. You can create both 2D and
-                        3D block definitions using the same set of tools and
-                        workflow that you are familiar with.</p>
+                <div id="sheet" data-tab-content>
+                    <h1>this is Sheet design </h1>
                 </div>
-            </div>
-            <div class="design-card">
-                <div class="design-img">
-                    <img src="images/product3_blockify.png">
-                </div>
-                <div class="design-content" id="blockify">
-                    <h3>Blockify</h3>
-                    <p>This unique tool automatically converts repetitive sets
-                        of 2D or 3D drawing geometry to block definitions,
-                        instantly ensuring cleaner, higher performing and
-                        better organised drawings.</p>
-                </div>
-            </div>
-        </div>
-        <button>Show More</button>
-    </section> 
-    <!-----------------------HIGH PERFORMANCE----------------------------->
-    <section class="performance" id="performance">
-        <div class="performance-wrap" id="performance-wrap">
-            <div class="faster">
-                <div class="fast1">
-                    <div class="fast-img">
-                        <img src="images/2.7x.png">
-                    </div>
-                    <div class="fast-text">
-                        <h1>2.7x</h1><h2>faster</h2>
-                        <p>Opening 500+ dwg files</p>
-                    </div>
-                </div>
-                <div class="fast1">
-                    <div class="fast-img">
-                        <img src="images/2.8x.png">
-                    </div>
-                    <div class="fast-text">
-                        <h1>2.8x</h1><h2>faster</h2>
-                        <p>Running advanced LISP routine</p>
-                    </div>
-                </div>
-            </div>
-            <div class="multi-core">
-                <div class="multi-img">
-                    <img src="images/multi_core.png">                    
-                </div>
-                <div class="multi-text">
-                    <h3>Take real advantage of multi-core CPU's</h3>
-                    <p>BricsCAD supports multi-threaded, multi-processor 
-                        operations to accelerate product performance for file
-                        loads, drawing generation and rendering.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section> 
-    <!-----------------High performance graphics engine-------------------------->
-    <section class="intelligent" id="intelligent">
-        <div class="intel-wrap">
-            <div class="intel1" id="engine-card">
-                <div class="intel-img">
-                    <img src="images/product3_engine.png">
-                </div>
-                <div class="intel-text" id="engine-text">
-                    <h2>High performance graphics engine</h2>
-                    <p>In each new version of BricsCAD, we strive to improve display performance.
-                        Enjoy smooth zoom and pan operations in drawings containing hundreds of
-                        thousands of entities. BricsCAD uses the Redway3D graphics system to deliver
-                        great display performance for 3D graphics</p>
-                </div>      
-            </div>
-            <div class="intel1" id="engine-card">
-                <div class="intel-img">
-                    <img src="images/product3_tiff.png">
-                </div>
-                <div class="intel-text"  id="engine-text">
-                    <h2>PDF and Big TIFF underlays</h2>
-                    <p>We use a multi resolution, persistent image cache to display PDF underlays,
-                        enabling super fast zoom and pan operations. And BricsCAD’s raster engine
-                        delivers great pan and zoom performance, even with enormous 64 bit BigTIFF
-                        files.</p>
+                <div id="assembly" data-tab-content>
+                    <h1>this is Assembly design </h1>
                 </div>
             </div>
         </div>
     </section>
-    
-    
-    
+   
     <!-- --------------------------FOOTER---------------------------- -->
     <section class="footer">
         <!-- --------NEWSLETTER--- -->
