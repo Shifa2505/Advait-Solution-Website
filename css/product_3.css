@@ -128,20 +128,117 @@ h2{
 /* Mechanical Accordion */
 .mechanical-accordion{
     min-height: 120vh;
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
+    margin-top: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .mech-acc-container{
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
-    width: 95%;
+    flex-direction: column;
+    width: 90%;
 }
+.mech-accord{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.mech-accord li{
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tab.active{
+    color: #5199f4;
+    border-bottom-style: solid;
+    border-bottom-color: #5199f4;
+}
+
+.tab:hover{
+    color: #5199f4;
+    text-shadow: 0 5px 5px #aaa;
+}
+.tab::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #5199f4 ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.tab:hover::after{
+    width: 100%;
+}
+
+
 
 [data-tab-content] {
     display: none;
 }
 .active[data-tab-content] {
     display: block;
+}
+/* Different Tabs in the Mech Accoridon */
+/* Part Design Tab */
+.part-container{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.part-start{
+    min-height: 15vh;
+}
+.part-start p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.part-middle{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.part-middle-img img{
+    max-width: 630px;
+}
+.part-middle-content p, h3{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    /* margin-left: 40px; */
+}
+.part-middle-img{
+    flex-basis: 50%;
+}
+.part-middle-content{
+    flex-basis: 50%;
+}
+.part-middle-content h3{
+    font-size: 1.6rem;
+}
+.part-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.part-end-block{
+    width: 31%;
+}
+.part-end-block img{
+    max-width: 410px;
+    margin-bottom: 10px;
+}
+.part-end-block p, h3{
+    font-size: 1.3rem;
+    margin-left: 0;
+}
+.part-end-block h3{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
 }
