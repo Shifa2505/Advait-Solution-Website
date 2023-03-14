@@ -28,7 +28,7 @@ h2{
 .mechanical-dashboard{
     min-height: 50vh;
     margin-top: 55px;
-    /* background-color: firebrick; */
+    /* background-color: rgb(3, 49, 30); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@ h2{
     margin-left: 80px;
     width: 90%;
 }
-/* Mechanical Accordion */
+/* Mechanical Accordion ******************************************/
 .mechanical-accordion{
     min-height: 120vh;
     /* background-color: palevioletred; */
@@ -241,4 +241,233 @@ h2{
 .part-end-block h3{
     font-size: 1.5rem;
     padding-bottom: 5px;
+}
+/* ************Sheet Metal Design *************** */
+.sheet-container{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.sheet-start{
+    min-height: 5vh;
+}
+.sheet-start p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.sheet-middle{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.sheet-middle-img img{
+    max-width: 650px;
+}
+.sheet-middle-img{
+    flex-basis: 50%;
+}
+.sheet-middle-content{
+    flex-basis: 50%;
+}
+.sheet-demo-accordion{
+    width: 100%;
+    /* background-color: #5199f4; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sheet-demo-accordion li{
+    list-style: none;
+    width: 90%;
+    margin-bottom: 15px;
+    /* color: #fff; */
+    padding: 5px;
+    /* margin-top: 50px; */
+}
+.sheet-demo-accordion li label{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.sheet-demo-accordion li label i{
+    font-size: 2.5rem;
+
+}
+.demo-content p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.sheet-demo-accordion .divider{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 3px 3px #2f2e2e;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+input[type="radio"]{
+    display: none;
+}
+.sheet-demo-accordion .demo-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s; 
+}  
+.sheet-demo-accordion label + input[type="radio"]:checked + .demo-icon + .demo-content{
+    max-height: 300px;
+}
+
+/* ******************Assembly Design************************* */
+.assembly-container{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.assembly-start p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.assembly-middle{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.assembly-middle-img img{
+    max-width: 630px;
+}
+.assembly-middle-content p, h3{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    /* margin-left: 40px; */
+}
+.assembly-middle-img{
+    flex-basis: 50%;
+}
+.assembly-middle-content{
+    flex-basis: 50%;
+}
+.assembly-middle-content h3{
+    font-size: 1.6rem;
+}
+#bill p{
+    margin-top: 35px;
+}
+/* ************************Efficient 2D Detailing ***************************** */
+.efficient{
+    display: flex;
+    justify-content: center;
+    /* background-color: forestgreen; */
+    margin-top: 100px;
+}
+.efficient-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product3-efficient-heading{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    /* background-color: chocolate; */
+}
+.product3-efficient-heading p{
+    padding: 15px;
+    /* width: 50%; */
+    text-align: center;
+}
+.efficient-middle{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.efficient-middle-img img{
+    max-width: 630px;
+}
+.efficient-middle-content p, h3{
+    /* font-size: 1.rem; */
+    letter-spacing: 1px;
+    width: 80%;
+    /* margin-left: 40px; */
+}
+.efficient-middle-img{
+    flex-basis: 60%;
+}
+.efficient-middle-content{
+    flex-basis: 60%;
+}
+.efficient-middle-content h3{
+    font-size: 1.6rem;
+}
+.eff-content-bottom{
+    margin-top: 15px;
+}
+.drawing-check{
+    display: flex;
+}
+.drawing-check img{
+    padding: 0 20px 10px 0px;
+}
+#section-views p{
+    margin-top: 30px;
+}
+.efficient button{
+    width: 250px;
+    height: 50px;
+    background-color: #005fa0;
+    font-size: 1.3rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 5px 5px #aaa;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+/* ************************* Multi CAD Connectivity********************************** */
+.multi-cad{
+    display: flex;
+    justify-content: center;
+    /* background-color: forestgreen; */
+    margin-top: 120px;
+}
+.multi-cad-container{
+    /* width: 90%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product3-multi-heading{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    /* background-color: chocolate; */
+}
+.product3-multi-heading p{
+    padding: 15px;
+    width: 70%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.multi-full-img img{
+    margin-top: 50px;
+    /* background-color: #808080; */
+    margin-left: 80px;
+    width: 90%;
 }
