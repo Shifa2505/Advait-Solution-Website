@@ -923,3 +923,90 @@
         margin-left: 0;
     }
 }
+
+/* ***************************** Product 3 Mechanical BricCAD page ************************************* */
+@media(max-width: 768px){
+    /* Mechanical BricsCAD page dashboard */
+    .mechanical-wrap{
+        flex-direction: column;
+        width: 90%;
+    }
+    .mechanical-content{
+        margin-right: 0;
+    }
+    .mechanical-content button{
+        box-shadow: none;
+    }
+    .mechanical-content .feature-button button{
+        margin-left: 0;
+    }
+    .mechanical-dash-img img{
+        margin-top: 30px;
+    }
+    .sections{
+        margin-top: 0;
+    }
+    /* Intelligent Mechanical Design*********************** */
+    .product3-intelligent{
+        margin-top: -300px;
+        min-height: 50vh;
+    }
+    .product3-intelligent-heading{
+        width: 90%;
+        text-align: center;
+    }
+    .product3-intelligent-heading p{
+        width: 85%;
+    }
+    .intelligent-full-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intelligent-full-img img{
+        margin-left: 0;
+        min-height: 350px;
+    }
+    /* Mechanical Accordion ***************************************** */
+    .mechanical-accordion{
+        align-items: center;
+    }
+    .mech-acc-container{
+        width: 90%;
+    }
+    .mech-accord{
+        width: 100%;
+    }
+    .mech-accord li{
+        font-size: 1.8rem;
+    }
+    .tab:hover::after{
+        width: 0%;
+    }
+    /* Different Tabs in the Mech Accoridon */
+    /* Part Design Tab */
+    .part-middle{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .part-middle-img img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .part-middle-content h3{
+        font-size: 1.8rem;
+    }
+    .part-end{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .part-end-block img{
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .part-end-block h3{
+        font-size: 2rem;
+    }
+    
+}

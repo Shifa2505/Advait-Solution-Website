@@ -28,7 +28,7 @@ h2{
 .mechanical-dashboard{
     min-height: 50vh;
     margin-top: 55px;
-    /* background-color: rgb(3, 49, 30); */
+    /* background-color: rgb(105, 125, 117); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@ h2{
     margin-left: 80px;
     width: 90%;
 }
-/* Mechanical Accordion ******************************************/
+/* Mechanical Accordion ***************************************** */
 .mechanical-accordion{
     min-height: 120vh;
     /* background-color: palevioletred; */
@@ -467,7 +467,7 @@ input[type="radio"]{
 }
 .multi-full-img img{
     margin-top: 50px;
-    /* background-color: #808080; */
+    background-color: #808080;
     margin-left: 80px;
     width: 90%;
 }
