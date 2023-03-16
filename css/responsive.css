@@ -1008,5 +1008,73 @@
     .part-end-block h3{
         font-size: 2rem;
     }
-    
+    /* ************Sheet Metal Design *************** */
+    .sheet-middle{
+        flex-direction: column;
+    }
+    .sheet-demo-accordion li{
+        width: 100%;
+    }
+    .sheet-demo-accordion li label{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .sheet-demo-accordion li label i{
+        width: 10%;
+    }  
+    /* ******************Assembly Design************************* */
+    .assembly-middle{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .assembly-middle-content h3{
+        font-size: 1.8rem;
+    }
+    /* ************************Efficient 2D Detailing ***************************** */
+    .efficient-container{
+        width: 90%;
+    }
+    .product3-efficient-heading{
+        text-align: center;
+    }
+    .efficient-middle{
+        flex-direction: column;
+        min-height: 10vh;
+        /* background-color: palevioletred; */
+    }
+    .efficient-middle-img img{
+        margin-top: 30px;
+        /* background-color: aquamarine; */
+    }
+    .efficient-middle-img{
+        flex-basis: 100%;
+    }
+    .efficient-middle-content{
+        flex-basis: 100%;
+        min-height: 70vh;
+        margin-top: 20px;
+    }
+    .efficient-middle-content p, h3{
+        /* font-size: 1.8rem */
+        width: 100%;
+    }
+    .drawing-check img{
+        width: 10%;
+    }
+    /* ************************* Multi CAD Connectivity********************************** */
+    .multi-cad-container{
+        width: 90%;
+    }
+    .product3-multi-heading{
+        text-align: center;
+    }
+    .product3-multi-heading p, h1{
+        width: 100%;
+    }
+    .multi-full-img img{
+        margin-left: 0;
+        min-width: 100%;
+        min-height: 200px;
+        display: none;
+    }
 }
