@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1.1rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 550;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 2.3rem;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+.header{
+    /* min-height: 100vh; */
+    /* background-color: blueviolet; */
+    background-image: url(/images/product_ellipse.png);
+}
+/* Service 1 Dashboard */
+.service1_dashboard{
+    /* background-color: pink; */
+    margin-top: 70px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service1_wrap{
+    width: 80%;
+    /* background-color: moccasin; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service1-content button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #5199f4;
+    padding: 12px 5px;
+    font-size: 1.2rem;
+    color: #fff ;
+    border: none;
+    box-shadow: 0 4px 4px #aaa;
+    border-radius: 20px;
+}
+.service1-content h1{
+    /* background-color: #5199f4; */
+    width: 70%;
+    text-align: left;
+    /* padding-right: 30px; */
+}
+.service1-img img{
+    max-width: 750px;
+    max-height: 55vh;
+}
