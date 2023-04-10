@@ -18,9 +18,12 @@ h2{
     letter-spacing: 2px;
 }
 .header{
-    max-height: 100vh;
+    /* max-height: 100vh; */
     /* background-color: blueviolet; */
     background-image: url(/images/product_ellipse.png);
+}
+#header{
+    max-height: 100vh;
 }
 /* Service 1 Dashboard */
 .service1_dashboard{
@@ -75,6 +78,7 @@ h2{
 .service-container{
     margin-top: 50px;
     display: flex;
+    /* background-color: #aaa; */
     justify-content: space-evenly;
     padding-left: 0px;
     width: 80%;

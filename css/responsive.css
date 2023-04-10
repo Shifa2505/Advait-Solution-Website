@@ -1080,5 +1080,30 @@
 }
 /* ********************************* SERVICE 1 PAGE ************************************** */
 @media(max-width: 768px){
-    
+    /* service 1 dashboard */
+    .service1_wrap{
+        flex-direction: column;
+        width: 90%;
+    }
+    #header{
+        min-height: 130vh;
+    }
+    /* service 1 cards */
+    .service-card{
+        height: 600px;
+    }
+    .offer-btn{
+        width: 50%;
+    }
+    /* get quote */
+    .get-quote{
+        background-image: none;
+
+    }
+    .get-quote-container{
+        width: 90%;
+    }
+    .get-quote-form input{
+        width: 100%;
+    }
 }
