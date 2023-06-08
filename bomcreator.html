@@ -30,7 +30,7 @@
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">About Us</a></li>
+                    <!-- <li><a href="">About Us</a></li> -->
                     <li>
                         <a href="">Products <i class="fas fa-caret-down"></i> </a>
                         <div class="dropdown-1">
@@ -46,8 +46,8 @@
                         <div class="dropdown-1">
                             <ul>
                                 <li><a href="service_1.html">Services 1</a></li>
-                                <li><a href="#">Services 2</a></li>
-                                <li><a href="#">Services 3</a></li>
+                                <!-- <li><a href="#">Services 2</a></li> -->
+                                <!-- <li><a href="#">Services 3</a></li> -->
                             </ul>
                         </div>
                     </li>
@@ -286,35 +286,35 @@
                 <p>or write us at info@advaitsolution.com</p>
             </div>
             <div class="bom-get-touch-form">
-                <form>
+                <form action="javascript:getInTouch()" method="post">
                     <div class="input-row">
                         <div class="input-group">
-                            <input type="text" placeholder="First Name" required>
+                            <input type="text" id="firstname" placeholder="First Name" required>
                         </div>
                         <div class="input-group">
-                            <input type="text" placeholder="Company Name" required>
+                            <input type="text" id="companyname" placeholder="Company Name" required>
                         </div>
                     </div>
                     <div class="input-row">
                         <div class="input-group">
-                            <input type="email" placeholder="Email ID" required>
+                            <input type="email" id="email" placeholder="Email ID" required>
                         </div>
                         <div class="input-group">
-                            <input type="text" placeholder="Contact Number" required>
+                            <input type="text" id="mobile" placeholder="Contact Number" required>
                         </div>
                     </div>
                     <div class="input-row">
                         <div class="input-group">
-                            <input type="text" placeholder="Location" required>
+                            <input type="text" id="location" placeholder="Location" required>
                         </div>
                         <div class="input-group">
-                            <input type="text" placeholder="Job Title" required>
+                            <input type="text" id="job" placeholder="Job Title" required>
                         </div>
                     </div>
                     <div class="txtarea">
-                        <textarea rows="1" placeholder="Message"></textarea required>
+                        <textarea rows="1" id="message" placeholder="Message"></textarea required>
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" onclick="getInTouch()">Send Message</button>
                 </form>
             </div>
         </div>
@@ -386,6 +386,50 @@
 
     <!-- ------ Swiper JS---------->
     <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript for GET IN TOUCH BOM CREATOR PAGE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function getInTouch(){
+            var firstname = $('#firstname').val();
+            var companyname = $('#companyname').val();
+            var email = $('#email').val();
+            var mobile = $('#mobile').val();
+            var location = $('#location').val();
+            var job = $('#job').val();
+            var message = $('#message').val();
+
+            var Body = 'First Name: '+firstname+ '<br> Company Name: '+companyname+ '<br> Email ID: '+email+
+                        '<br> Contact Number: '+mobile+ '<br> Location: '+location+ '<br> Job Title: '+job+'<br> Message: '+message;
+            
+            Email.send({
+                // Host : "smtp.elasticemail.com",  
+                // Username : "example@gmail.com",
+                // Password : "Encrypted password generated from smtp host",
+                // To : 'where you want to recieve the mail example2@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Enquiry",
+                // Port: 2525, the port you'll recieve from smtp
+                Body : Body
+            }).then(
+                message =>{
+                    //console.log (message);
+                    if(message=='OK'){
+                    alert('Your mail has been send. Thank you for connecting.');
+                    }
+                    else{
+                        console.error (message);
+                        alert('There is error at sending message. ')
+                        
+                    }
+
+                }
+            );
+        }
+     </script>
 
 </body>
 </html>

@@ -28,7 +28,7 @@
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">About Us</a></li>
+                    <!-- <li><a href="">About Us</a></li> -->
                     <li>
                         <a href="">Products <i class="fas fa-caret-down"></i> </a>
                         <div class="dropdown-1">
@@ -44,8 +44,8 @@
                         <div class="dropdown-1">
                             <ul>
                                 <li><a href="service_1.html">Services 1</a></li>
-                                <li><a href="#">Services 2</a></li>
-                                <li><a href="#">Services 3</a></li>
+                                <!-- <li><a href="#">Services 2</a></li> -->
+                                <!-- <li><a href="#">Services 3</a></li> -->
                             </ul>
                         </div>
                     </li>
@@ -286,27 +286,27 @@
             </div>
             <div class="send-message">
                 <h1>Send a Message</h1>
-                <form>
+                <form action="javascript:sendEmail()" method="post">
                     <div class="input-row">
                         <div class="input-group">
-                            <input type="text" placeholder="First Name" required>
+                            <input type="text" id="firstname" placeholder="First Name" required>
                         </div>
                         <div class="input-group">
-                            <input type="text" placeholder="Last Name" required>
+                            <input type="text" id="lastname" placeholder="Last Name" required>
                         </div>
                     </div>
                     <div class="input-row">
                         <div class="input-group">
-                            <input type="email" placeholder="Email ID" required>
+                            <input type="email" id="email" placeholder="Email ID" required>
                         </div>
                         <div class="input-group">
-                            <input type="text" placeholder="Moblie Number" required>
+                            <input type="text" id="mobile" placeholder="Moblie Number" required>
                         </div>
                     </div>
                     <div class="txtarea">
-                        <textarea rows="1" placeholder="Write your message here"></textarea required>
+                        <textarea rows="1" id="message" placeholder="Write your message here"></textarea required>
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" onclick="sendEmail()">Send Message</button>
                 </form>
             </div>
             <div class="contact-us">
@@ -405,5 +405,48 @@
     <!-- ---------- JavaScript for swiper -------------- -->
     <script src="js/script.js"></script>
 
+
+
+    <!-- JavaScript for contact us HOME PAGE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail(){
+            var firstname = $('#firstname').val();
+            var lastname = $('#lastname').val();
+            var email = $('#email').val();
+            var mobile = $('#mobile').val();
+            var message = $('#message').val();
+
+            var Body = 'First Name: '+firstname+ '<br> Last Name: '+lastname+ '<br> Email: '+email+
+                        '<br> Contact Number: '+mobile+ '<br> Message: '+message;
+            
+            Email.send({
+                // Host : "smtp.elasticemail.com",  
+                // Username : "example@gmail.com",
+                // Password : "Encrypted password generated from smtp host",
+                // To : 'where you want to recieve the mail example2@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Enquiry",
+                // Port: 2525, the port you'll recieve from smtp
+                Body : Body
+            }).then(
+                message =>{
+                    //console.log (message);
+                    if(message=='OK'){
+                    alert('Your mail has been send. Thank you for connecting.');
+                    }
+                    else{
+                        console.error (message);
+                        alert('There is error at sending message. ')
+                        
+                    }
+
+                }
+            );
+        }
+     </script>
 </body>
 </html>
